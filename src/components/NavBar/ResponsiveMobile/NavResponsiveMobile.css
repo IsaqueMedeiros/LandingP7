@@ -1,0 +1,146 @@
+@media only screen and (min-width: 500px) and (max-width:699px) {
+  .logo_Navbar{
+    margin-left: 0rem;
+}
+.entrar_p7_btn{
+    margin-left: 50%;
+}
+header{
+    height: 7rem;
+}
+header .nav-btn {
+    margin-right: 0rem;
+    font-size: 2rem;
+
+}
+header nav {
+    height: 85%;
+    width: 100%;
+}
+.TXT-links{
+    margin-right: 2.5rem;
+}
+.entrar_p7_btn{
+    text-align: center;
+    border-radius: 100px;
+    padding: 3px;
+    width: 170px;
+    border: solid 1px #fff;
+    font-size: 0.8rem;
+  }
+  .entrar_p7_btn, a{
+    cursor: pointer;
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width:499px) {
+  .logo_Navbar{
+    margin-left: 0rem;
+}
+.entrar_p7_btn{
+    margin-left: 17%;
+}
+header{
+    height: 7rem;
+}
+header .nav-btn {
+    margin-right: 0rem;
+    font-size: 2rem;
+
+}
+header nav {
+    height: 60%;
+    width: 100%;
+}
+.TXT-links{
+    margin-right: 2.5rem;
+}
+.entrar_p7_btn{
+    text-align: center;
+    border-radius: 100px;
+    padding: 3px;
+    width: 170px;
+    border: solid 1px #fff;
+    font-size: 0.8rem;
+  }
+  .entrar_p7_btn, a{
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width:399px) {
+  .logo_Navbar{
+    margin-left: 0rem;
+}
+.entrar_p7_btn{
+    margin-left: 17%;
+}
+header{
+    height: 7rem;
+}
+header .nav-btn {
+    margin-right: 0rem;
+    font-size: 2rem;
+
+}
+header nav {
+    height: 85%;
+    width: 100%;
+}
+.TXT-links{
+    margin-right: 2.5rem;
+}
+.entrar_p7_btn{
+    text-align: center;
+    border-radius: 100px;
+    padding: 3px;
+    width: 170px;
+    border: solid 1px #fff;
+    font-size: 0.8rem;
+  }
+  .entrar_p7_btn, a{
+    cursor: pointer;
+    color: #fff;
+  }
+}
+/* Sidebar no mobile */
+@media only screen and (max-width: 699px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 0.8s;
+    transform: translateY(-100vh);
+    z-index: 998;
+    overflow-x: hidden;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+  }
+
+  nav a {
+    top: 2rem;
+    position: relative;
+    font-size: 1rem;
+  }
+}

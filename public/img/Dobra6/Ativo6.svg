@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1076.72 124.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome" data-name="Gradiente sem nome" x1="0" y1="1021.52" x2="1076.72" y2="1021.52" gradientTransform="translate(0 1083.83) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#783390"/>
+      <stop offset="0" stop-color="#783390"/>
+      <stop offset="1" stop-color="#e72163"/>
+    </linearGradient>
+  </defs>
+  <g id="Shape_5" data-name="Shape 5">
+    <path class="cls-1" d="M62.31,124.62C27.95,124.62,0,96.67,0,62.31S27.95,0,62.31,0H1014.41c34.36,0,62.31,27.95,62.31,62.31s-27.95,62.31-62.31,62.31H62.31Z"/>
+  </g>
+</svg>

@@ -1,0 +1,181 @@
+.DobraMobile-Container-6{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/FundoPredioMobile.png');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.AgendeTour_btn_mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/Ativo6.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+
+/* Estilo das logos que estão no P7 */
+.AutoPlay_Mobile_Style{
+    background-color: #FF9500;
+  }
+  .logo42BHMobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/Logo-42.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+  .logoSenaiF6Mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/Sesi.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+  .logoSesiF6Mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/Senai.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+  .logoIELF6Mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/IEL.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+  .logoFIEMGF6Mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/FIEMG.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+  .LogoNeoVenturesMobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra6/LogosEspaçoP7/NeoV.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:7rem;
+    background-position: center;
+  }
+@media only screen and (min-width:500px) and (max-width:699px) {
+    .DobraMobile-Container-6{
+        height: 100vh;
+    }
+    .Textos_Mobile-Container6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 5rem;
+    }
+    .Titulo_Inovação_Mobile6{
+        font-size: 1.5rem;
+        max-width: 20rem;
+        margin-left: -1.8rem;
+    }
+    .Txt_Mobile6{
+        font-size: 1.1rem;
+        max-width: 18rem;
+        margin-top: 3rem;
+        margin-left: -2rem;
+    }
+    .AgendeTour_btn_mobile{
+        margin-top: 25rem;
+        height: 40px;
+        width: 300px;
+        position: absolute;
+        margin-left: -2rem;
+    }
+    .AutoPlay_Mobile_Style{
+        height: 100px;
+        max-width: 150px;
+        border: 1px solid #fff;
+    }
+     
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+  
+    
+    .Text_ScrollSide_Mobile{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        align-items: flex-start;
+    
+     
+    }
+}
+@media only screen and (min-width:0px) and (max-width:499px) {
+    .DobraMobile-Container-6{
+        height: 100vh;
+    }
+    .Textos_Mobile-Container6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 5rem;
+    }
+    .Titulo_Inovação_Mobile6{
+        font-size: 1.5rem;
+        max-width: 20rem;
+        margin-left: -1.8rem;
+    }
+    .Txt_Mobile6{
+        font-size: 1.1rem;
+        max-width: 18rem;
+        margin-top: 3rem;
+        margin-left: -2rem;
+    }
+    .AgendeTour_btn_mobile{
+        margin-top: 25rem;
+        height: 40px;
+        width: 300px;
+        position: absolute;
+        margin-left: -2rem;
+    }
+    .AutoPlay_Mobile_Style{
+        height: 100px;
+        max-width: 150px;
+        border: 1px solid #fff;
+    }
+     
+    .slick-slide > div {
+        display: grid;
+        place-items: end;
+        width: 100%;
+        margin-top: 50px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+  
+    
+    .Text_ScrollSide_Mobile{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        align-items: flex-start;
+    
+     
+    }
+}
+
+

@@ -1,0 +1,164 @@
+/* Estilo dos icones  */
+.AppIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+      background-image: url('/img/Dobra4/icones/icon1.svg');
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size:cover;
+      background-position: center;
+  }
+  .VisiIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+      background-image: url('/img/Dobra4/icones/icon2.svg');
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size:cover;
+      background-position: center;
+  }
+  .RecepcaoIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon3.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .CopaIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon4.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .InfoIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon5.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .EstudoIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon6.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .CondIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon7.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .DescontoIconC4{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon8.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  /* Estilo dos icones (END) */
+  .Garanta_btn{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/Ativo4.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+@media only screen and (min-width:500px) and (max-width:699px) {
+    .DobraMobile-Container-4 {
+        /* justify-content: center; */
+        height: 100vh;
+    }
+    .title_mobile4{
+        font-size: 1.875rem; 
+    }
+    .txt_ballimg{
+        max-width: 120px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .txt_desc{
+        max-width: 70px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .Garanta_btn{
+        height: 35px;
+        width: 250px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+    }
+    
+}
+@media only screen and (min-width:390px) and (max-width:499px) {
+    .DobraMobile-Container-4 {
+        /* justify-content: center; */
+        height: 100vh;
+    }
+    .title_mobile4{
+        font-size: 1.875rem; 
+    }
+    .txt_ballimg{
+        max-width: 120px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .txt_desc{
+        max-width: 70px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .Garanta_btn{
+        height: 35px;
+        width: 250px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+    }
+    
+}
+@media only screen and (min-width:280px) and (max-width:389px) {
+    .DobraMobile-Container-4 {
+        /* justify-content: center; */
+        height: 115vh;
+    }
+    .title_mobile4{
+        font-size: 1.875rem; 
+    }
+    .txt_ballimg{
+        max-width: 120px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .txt_desc{
+        max-width: 70px;
+        font-size: small;
+        text-align: center;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .Garanta_btn{
+        height: 35px;
+        width: 250px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+    }
+    
+}

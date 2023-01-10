@@ -1,0 +1,141 @@
+@media only screen and (min-width:1060px)  {
+    .WppContainerTotal{
+        position: fixed;
+        right: 2%;
+        bottom: 5%;
+        z-index: 9999999;
+    }
+    
+    .WppIcon{
+        width: 100px;
+        height: 100px;
+    }
+    .WppBackground{
+        width:55px;
+        height: 55px;
+        background-color: #10B916;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        right: 2%;
+        bottom: 5%;
+        position: fixed;
+    }
+    .WppChatBox{
+        width: 12.5rem;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        height: 70px;
+        background-color: #3267A5;
+        opacity: 1;
+    
+    }
+    
+}
+@media only screen and (min-width:700px) and (max-width:1059px)  {
+    .WppContainerTotal{
+        position: fixed;
+        right: 2%;
+        bottom: 5%;
+        z-index: 9999999;
+    }
+    
+    .WppIcon{
+        width: 80px;
+        height: 80px;
+    }
+    .WppBackground{
+        width:50px;
+        height: 50px;
+        background-color: #10B916;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        right: 2%;
+        bottom: 5%;
+        position: fixed;
+    }
+    .WppChatBox{
+        width: 12rem;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        height: 70px;
+        background-color: #3267A5;
+        opacity: 10;
+    
+    }
+    .WppText{    
+        font-size: 0.9rem;
+    }
+    
+}
+@media only screen and (min-width:450px) and (max-width:699px)  {
+    .WppContainerTotal{
+        position: fixed;
+        right: 2%;
+        bottom: 5%;
+    }
+    
+    .WppIcon{
+        width: 80px;
+        height: 80px;
+    }
+    .WppBackground{
+        width:50px;
+        height: 50px;
+        background-color: #10B916;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        right: 2%;
+        bottom: 5%;
+        position: fixed;
+    }
+    .WppChatBox{
+        width: 11rem;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        height: 60px;
+        background-color: #3267A5;
+        opacity: 10;
+    
+    }
+    .WppText{    
+        font-size: 0.9rem;
+    }
+    
+}
+@media only screen and (min-width:0px) and (max-width:449px)  {
+    .WppContainerTotal{
+        position:absolute;
+        right: 10%;
+        bottom: -5%;
+        z-index: 999999;
+    }
+    
+    .WppIcon{
+        width: 45px;
+        height: 450px;
+    }
+    .WppBackground{
+        width:40px;
+        height: 40px;
+        background-color: #10B916;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .WppChatBox{
+        width: 0rem;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        height: 0px;
+        background-color: #3267A5;
+        opacity: 10;
+        visibility: hidden;
+    }
+    .WppText{    
+        font-size: 0.9rem;
+    }
+    
+}

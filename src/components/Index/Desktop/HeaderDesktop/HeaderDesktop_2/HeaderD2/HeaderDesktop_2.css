@@ -1,0 +1,95 @@
+
+.Faca_parte_btn_desktop {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra2/Ativo2.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position:center;
+}
+/* Foto das logos dentro de cada quadrado, Ele estiliza a versão under 1600px */
+
+.imgCriativa{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/iconesD2/iconeCriativa.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+.iconeNetwork{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra2/iconesD2/iconeNetwork.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.iconeDesenvolvimento{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra2/iconesD2/iconeDesenvolvimento.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.iconeExpansao{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra2/iconesD2/iconeExpansao.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.iconeVirtual{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra2/iconesD2/iconeVirtual.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+/* Foto das logos dentro de cada quadrado (END)*/
+
+@media only screen and (min-width: 1600px) {
+  
+  .ContainerDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/BK2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+
+  }
+
+  .titulo-desktop2 {
+    font-size: 2.5rem;
+    margin-right: 55%;
+  }
+  .ALL-square-c2 {
+    width: 100%;
+  }
+  .square-conteudo2-desktop {
+    height: 500px;
+    width: 300px;
+    border: solid 1px #fff;
+    overflow: hidden;
+  }
+  .img-conteudo2-desktop {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 15rem;
+  }
+  .Textos-Quadrados-Container2{
+    max-width: 14rem;
+  }
+  .Faca_parte_btn_desktop {
+    width: 400px;
+    height: 60px;
+    border-radius: 100px;
+    margin-bottom: 0%;
+  }
+}
+

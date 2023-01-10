@@ -1,0 +1,242 @@
+.titulo-desktop3 {
+  text-align: justify;
+}
+.slick-dots li button:before {
+  margin-top: 2rem;
+  color: white;
+}
+.slick-dots li.slick-active button:before {
+  color: White ;
+}
+.Scrollside-Desktop {
+  max-width: 280px;
+  height: 350px;
+}
+/* Container Estilo */
+
+.ContainerDesktop_3 {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra3/BK3.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/* Container Estilo(END) */
+
+/* Botao Estilo */
+.interessou-btn-desk {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra3/Ativo3.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+/* Botao Estilo(END) */
+/* Fotos das seções */
+.coworkimg {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra3/Fotos_Espaços/coworking.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.salaPrivativaimg {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra3/Fotos_Espaços/salaPrivativa.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.andarCorridoimg {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra3/Fotos_Espaços/andarCorrido.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.salaReuniaoimg {
+  background-image: url("/img/Dobra3/Fotos_Espaços/salaReuniao.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.auditorioimg {
+  background-image: url("/img/Dobra3/Fotos_Espaços/auditorio.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.restauranteimg {
+  background-image: url("/img/Dobra3/Fotos_Espaços/restaurante.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+/* Fotos das seções (END) */
+/* Estilo dos textos do carrosel */
+.espacostxtC3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 250px;
+  margin-top: 27rem;
+  margin-left: -1.5rem;
+  /* Background */
+  background-image: url("/img/Dobra3/fundotxtC3.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+/* Estilo dos textos do carrosel (END)*/
+
+/* Responsividades */
+@media only screen and (min-width: 1300px) {
+  .ContainerDesktop_3 {
+    height: 100vh;
+  }
+  .titulo-desktop3 {
+    font-size: 2.5rem;
+    margin-right: 25%;
+  }
+  .Scrollside-Desktop {
+    max-width: 370px;
+    height: 500px;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .slickarrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-prev {
+    background-color: transparent !important;
+    color: black;
+  }
+
+  /* .slick-prev {
+    left: -8rem;
+    z-index: 1;
+    color: black;
+  } */
+  .slick-slider {
+    margin: 0 50px;
+  }
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
+  /* .slick-next {
+    right: 9rem;
+    z-index: 1;
+  } */
+  .interessou-btn-desk {
+    height: 65px;
+    width: 400px;
+    border-radius: 40px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .ContainerDesktop_3 {
+    height: 100vh;
+  }
+  .titulo-desktop3 {
+    font-size: 2rem;
+    margin-right: 25%;
+  }
+  .Scrollside-Desktop {
+    max-width: 300px;
+    height: 400px;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+  }
+  .espacostxtC3 {
+    margin-top: 21rem;
+  }
+  .slick-prev {
+    left: -8rem;
+    z-index: 1;
+    color: black;
+  }
+
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
+  .slick-next {
+    right: 9rem;
+    z-index: 1;
+  }
+  .interessou-btn-desk {
+    height: 60px;
+    width: 300px;
+    border-radius: 40px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .ContainerDesktop_3 {
+    height: 100vh;
+  }
+  .titulo-desktop3 {
+    font-size: 1.5rem;
+    margin-right: 15%;
+  }
+  .Scrollside-Desktop {
+    max-width: 300px;
+    height: 400px;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+  }
+  .espacostxtC3 {
+    margin-top: 21rem;
+  }
+  .slick-prev {
+    left: -8rem;
+    z-index: 1;
+    color: black;
+  }
+
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
+  .slick-next {
+    right: 9rem;
+    z-index: 1;
+  }
+  .interessou-btn-desk {
+    height: 60px;
+    width: 300px;
+    border-radius: 40px;
+  }
+}

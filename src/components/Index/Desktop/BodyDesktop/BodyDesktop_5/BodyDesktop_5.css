@@ -1,0 +1,182 @@
+
+  .ContainerDesktop_5 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/GrafismoBK5.svg'),url('/img/Dobra5/BK5.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-attachment:scroll,scroll;
+    background-size:auto,cover;
+    background-position: center,center;
+
+  }
+  .EntreP7-btn-desktop_5 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/Ativo5.svg');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+    
+  }
+  /* Logos empresas Parceiras */
+  
+  .Logos-Desktop_5{
+    width: 200px;
+    height: 60px;
+
+  }
+  .logoSesi{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/Sesi.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoSenai{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/Senai.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoIel{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/IEL.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoFiemg{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/FIEMG.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+    /* Logos empresas Parceiras (END)*/
+
+
+/* Responsividades */
+
+
+@media only screen and (min-width: 1200px)  {
+  .ContainerDesktop_5 {
+    height: 100vh;
+    justify-content: center;
+  }
+  .titulo-desktop5{
+    width: 25rem;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+  }
+  .conteudo-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    max-width: 100%;
+    column-gap:10rem;
+    row-gap: 0rem;
+    margin-top: 0rem;
+  }
+  .Segundotxt-Desktop_5 {
+    font-size: 1.1rem;
+    max-width: 20rem;
+    margin-top: -10rem;
+    margin-left: 0.5rem;
+
+  }
+  .Todas-Logos-Desktop_5{
+    margin-right: 10rem;
+    margin-top: 0rem;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .EntreP7-btn-desktop_5 {
+    width: 300px;
+    height: 60px;
+    margin-top: -5rem;
+    margin-right: 10rem;
+
+  }
+  
+}@media only screen and (min-width: 1000px) and (max-width:1199px)  {
+  .ContainerDesktop_5 {
+    height: 100vh;
+    justify-content: center;
+  }
+  .titulo-desktop5{
+    width: 20rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .conteudo-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    max-width: 100%;
+    column-gap:10rem;
+    row-gap: 0rem;
+    margin-top: 0rem;
+  }
+  .Segundotxt-Desktop_5 {
+    font-size: 1.1rem;
+    max-width: 20rem;
+    margin-top: -10rem;
+    margin-left: 0.5rem;
+
+  }
+  .Todas-Logos-Desktop_5{
+    margin-right: 10rem;
+    margin-top: 0rem;
+    width: 300px;
+    height: 300px;
+  }
+  .EntreP7-btn-desktop_5 {
+    width: 250px;
+    height: 50px;
+    margin-top: -5rem;
+    margin-right: 10rem;
+
+  }
+}
+@media only screen and (min-width: 700px) and (max-width:999px)  {
+  .ContainerDesktop_5 {
+    height: 100vh;
+    justify-content: center;
+  }
+  .titulo-desktop5{
+    width: 15rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .conteudo-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    max-width: 100%;
+    column-gap:10rem;
+    row-gap: 0rem;
+    margin-top: 0rem;
+  }
+  .Segundotxt-Desktop_5 {
+    font-size: 0.9rem;
+    max-width: 15rem;
+    margin-top: -5rem;
+    margin-left: 1.5rem;
+
+  }
+  .Todas-Logos-Desktop_5{
+    margin-right: 10rem;
+    margin-top: 0rem;
+    width: 300px;
+    height: 250px;
+  }
+  .EntreP7-btn-desktop_5 {
+    width: 250px;
+    height: 45px;
+    margin-top: -5rem;
+    margin-right: 10rem;
+
+  }
+}

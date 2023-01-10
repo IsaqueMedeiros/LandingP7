@@ -1,0 +1,204 @@
+.ContainerDesktop_6{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/faixas.svg'),url('/img/Dobra6/FundoPredio.png');
+  background-repeat: no-repeat,no-repeat;
+  background-attachment:scroll,scroll;
+  background-size:95rem,cover;
+  background-position: left 20rem top 5rem,center;
+}
+.agendeTour-btn{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/Ativo6.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+/* Estilo das logos que estão no P7 */
+.ScrollSide-desktop6{
+  background-color: #FF9500;
+}
+.logo42BH{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/Logo-42.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
+.logoSenaiF6{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/Sesi.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
+.logoSesiF6{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/Senai.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
+.logoIELF6{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/IEL.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:7rem;
+  background-position: center;
+}
+.logoFIEMGF6{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/FIEMG.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
+.LogoNeoVentures{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/NeoV.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
+/* Responsividades */
+
+@media only screen and (min-width: 1200px) {
+  .ContainerDesktop_6 {
+    height: 100vh;
+  }
+  .titulo-desktop6{
+    font-size: 2rem;
+    max-width: 25rem;
+  }
+  .texto-desktop_6{
+    font-size: 1.2rem;
+    max-width:26rem;
+  }
+  .Textos-desktop_6 {
+    max-width: 500px;
+    margin-top: 10rem;
+    margin-left: 12.5%;
+  }
+  .txt-scrollside-container_6{
+    font-size: 2rem;
+    max-width: 20rem;
+    position: absolute;  
+  }
+  
+  .ScrollSide-position_6 {
+    margin-top: 5rem;
+    max-width: 850px;
+    margin-left: 12.5%;
+  }
+  
+  .ScrollSide-desktop6 {
+    margin-top: 0rem;
+    max-width: 200px;
+    height: 150px;
+    border: 1px solid #fff;
+  }
+  .agendeTour-btn {
+    height:60px;
+    width: 350px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 15%;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width:1199px) {
+  .ContainerDesktop_6 {
+    height: 100vh;
+  }
+  .titulo-desktop6{
+    font-size: 2rem;
+    max-width: 25rem;
+  }
+  .texto-desktop_6{
+    font-size: 1.2rem;
+    max-width:26rem;
+  }
+  .Textos-desktop_6 {
+    max-width: 500px;
+    margin-top: 10rem;
+    margin-left: 10%;
+  }
+  .txt-scrollside-container_6{
+    font-size: 2rem;
+    max-width: 20rem;
+    position: absolute;  
+  }
+  
+  .ScrollSide-position_6 {
+    margin-top: 5rem;
+    max-width: 850px;
+    margin-left: 10%;
+  }
+  
+  .ScrollSide-desktop6 {
+    margin-top: 0rem;
+    max-width: 200px;
+    height: 150px;
+    border: 1px solid #fff;
+  }
+  .agendeTour-btn {
+    height:60px;
+    width: 350px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 15%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width:999px) {
+  .ContainerDesktop_6 {
+    height: 100vh;
+  }
+  .titulo-desktop6{
+    font-size: 2rem;
+    max-width: 25rem;
+  }
+  .texto-desktop_6{
+    font-size: 1.2rem;
+    max-width:26rem;
+  }
+  .Textos-desktop_6 {
+    max-width: 500px;
+    margin-top: 10rem;
+    margin-left: 10%;
+  }
+  .txt-scrollside-container_6{
+    font-size: 2rem;
+    max-width: 20rem;
+    position: absolute;  
+  }
+  
+  .ScrollSide-position_6 {
+    margin-top: 5rem;
+    max-width: 850px;
+    margin-left: 10%;
+  }
+  .slick-slider {
+    margin:0 -30px;
+}
+  .ScrollSide-desktop6 {
+    margin-top: 0rem;
+    max-width: 200px;
+    height: 150px;
+    border: 1px solid #fff;
+  }
+  .agendeTour-btn {
+    height:50px;
+    width: 300px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 38%;
+  }
+}

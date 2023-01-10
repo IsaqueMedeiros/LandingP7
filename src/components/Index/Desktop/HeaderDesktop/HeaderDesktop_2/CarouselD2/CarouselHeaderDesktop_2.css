@@ -1,0 +1,173 @@
+.Faca_parte_btn_Carousel_desktop {
+
+box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+background-image: url('/img/Dobra2/Ativo2.svg');
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-size:cover;
+background-position-x: center;
+background-position-y: center;
+}
+@media only screen and (min-width: 1150px) and (max-width:1599.95px) {
+  .ContainerCarouselDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/BK2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .titulo-Carousel-desktop2 {
+    font-size: 2.5rem;
+    margin-right: 37%;
+  }
+  .Titulos-Carousel-Desktop_2 {
+    max-width: 12rem;
+  }
+  .Textos-Carousel-Desktop_2 {
+    max-width: 13rem;
+  }
+  .Todos-TXT-Quadrado-Desktop2 {
+    margin-top: 14rem;
+  }
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .img-Carousel-Desktop_2 {
+    width: 110px ;
+    height: 110px ;
+    margin-top: 2.5rem;
+    margin-left: 5rem ; 
+  }
+  .ALL-Quadrado-Desktop2{
+    max-width: 100%;
+    margin-left: auto;
+  }
+  .Carousel-Quadrados-Desktop_2 {
+    max-width: 280px ;
+    height: 420px ;
+    border: 1px solid #fff;
+  }
+  .Faca_parte_btn_Carousel_desktop {
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1149px) {
+  .ContainerCarouselDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/BK2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .titulo-Carousel-desktop2 {
+    font-size: 2.5rem;
+    margin-right: 37%;
+  }
+  .Titulos-Carousel-Desktop_2 {
+    max-width: 12rem;
+  }
+  .Textos-Carousel-Desktop_2 {
+    max-width: 13rem;
+  }
+  .Todos-TXT-Quadrado-Desktop2 {
+    margin-top: 14rem;
+  }
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .img-Carousel-Desktop_2 {
+    width: 110px ;
+    height: 110px ;
+    margin-top: 2.5rem;
+    margin-left: 5rem ; 
+  }
+  .ALL-Quadrado-Desktop2{
+    max-width: 100%;
+    margin-left: auto;
+  }
+  .Carousel-Quadrados-Desktop_2 {
+    max-width: 280px ;
+    height: 420px ;
+    border: 1px solid #fff;
+  }
+  .Faca_parte_btn_Carousel_desktop {
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 0%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width:899px) {
+  .ContainerCarouselDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/BK2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .titulo-Carousel-desktop2 {
+    font-size: 2rem;
+    margin-right: 25%;
+  }
+  .Titulos-Carousel-Desktop_2 {
+    max-width: 12rem;
+  }
+  .Textos-Carousel-Desktop_2 {
+    max-width: 13rem;
+  }
+  .Todos-TXT-Quadrado-Desktop2 {
+    margin-top: 14rem;
+  }
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .img-Carousel-Desktop_2 {
+    width: 110px ;
+    height: 110px ;
+    margin-top: 2.5rem;
+    margin-left: 5rem ; 
+  }
+  .ALL-Quadrado-Desktop2{
+    max-width: 100%;
+    margin-left: auto;
+  }
+  .Carousel-Quadrados-Desktop_2 {
+    max-width: 280px ;
+    height: 420px ;
+    border: 1px solid #fff;
+  }
+  .Faca_parte_btn_Carousel_desktop {
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 0%;
+  }
+}

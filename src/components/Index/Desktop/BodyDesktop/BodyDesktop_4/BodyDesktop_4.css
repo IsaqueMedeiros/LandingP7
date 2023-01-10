@@ -1,0 +1,220 @@
+
+.Beneficios-p7-desktop4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  width: 800px;
+  column-gap: 5rem;
+  row-gap: 8rem;
+}
+.div_desktop_4 {
+  height: 70px;
+  width: 70px;
+}
+.Garanta-btn-desktop_4 {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/Ativo4.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+  height: 50px;
+}
+.desktop4-positionL{
+  align-items: center;
+}
+.desktop4-positionR{
+  align-items: center;
+
+}
+.titulo-desktop4{
+  color: #883093;
+}
+/* Estilo dos icones  */
+.AppIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon1.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+.VisiIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra4/icones/icon2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+.RecepcaoIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon3.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.CopaIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon4.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.InfoIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon5.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.EstudoIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon6.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.CondIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon7.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+.DescontoIconC4{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra4/icones/icon8.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
+}
+/* Estilo dos icones (END) */
+
+
+/* Responsividades */
+
+@media only screen and (min-width: 1200px){
+  .ContainerDesktop_4 {
+    height: 100vh;
+  }
+  .titulo-desktop4{
+    font-size: 2.5rem;
+  }
+  .textos-desktop4_fontSize{
+    font-size: 1rem;
+  }
+  .Beneficios-p7-desktop4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    width: 80%;
+    column-gap: 0rem;
+    row-gap: 9rem;
+  }
+  .txts-grid4-desktopL{
+    max-width: 14rem;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .txts-grid4-desktopR{
+    max-width: 14rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  .div_desktop_4 {
+    height: 80px;
+    width: 80px;
+    margin-top: -5rem;
+  }
+
+  .Garanta-btn-desktop_4 {
+    width: 350px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width:1199px) {
+  .ContainerDesktop_4 {
+    height: 100vh;
+  }
+  .titulo-desktop4{
+    font-size: 2rem;
+  }
+  .textos-desktop4_fontSize{
+    font-size: 0.9rem;
+  }
+  .Beneficios-p7-desktop4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    width: 80%;
+    column-gap: 0rem;
+    row-gap: 7rem;
+  }
+  .txts-grid4-desktopL{
+    max-width: 14rem;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .txts-grid4-desktopR{
+    max-width: 10rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  .div_desktop_4 {
+    height: 80px;
+    width: 80px;
+    margin-top: -5rem;
+  }
+
+  .Garanta-btn-desktop_4 {
+    width: 350px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width:999px) {
+  .ContainerDesktop_4 {
+    height: 100vh;
+  }
+  .titulo-desktop4{
+    font-size: 2rem;
+  }
+  .textos-desktop4_fontSize{
+    font-size: 0.75rem;
+  }
+  .Beneficios-p7-desktop4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    height: 60%;
+    column-gap: 0rem;
+    row-gap: 4rem;
+  }
+  .txts-grid4-desktopL{
+    max-width: 10rem;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .txts-grid4-desktopR{
+    max-width: 10rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  .div_desktop_4 {
+    height: 70px;
+    width: 70px;
+    margin-top: -5rem;
+  }
+
+  .Garanta-btn-desktop_4 {
+    width: 300px;
+    height: 50px;
+  }
+}

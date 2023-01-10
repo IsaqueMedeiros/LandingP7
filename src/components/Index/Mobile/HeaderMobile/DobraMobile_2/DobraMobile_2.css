@@ -1,0 +1,80 @@
+
+.DobraMobile-Container-2{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/BK2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+.faca_parte_btn{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/Ativo2.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+@media only screen and (min-width:500px) and (max-width:699px) {
+    .DobraMobile-Container-2 {
+        height:100vh;
+    }
+    .border_style{
+        border: 0.5px solid #fff;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .faca_parte_btn{
+        height: 40px;
+        width: 200px;
+        border-radius: 40px;
+    }
+    .carousel-indicators{
+        top: 470px;
+    }
+    .carousel-indicators > button {
+        border-radius: 50%;
+        width: 7px !important;
+        height: 7px !important;
+    }
+    .carousel-control-next{
+        margin-right: -1.4rem;
+    }
+    .carousel-control-prev{
+        margin-left: -1.4rem;
+    }
+    
+    
+}
+@media only screen and (min-width:280px) and (max-width:499px) {
+    .DobraMobile-Container-2 {
+        height:100vh;
+    }
+    .border_style{
+        border: 0.5px solid #fff;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .faca_parte_btn{
+        height: 40px;
+        width: 200px;
+        border-radius: 40px;
+    }
+    .carousel-indicators{
+        top: 420px;
+    }
+    .carousel-indicators > button {
+        border-radius: 50%;
+        width: 7px !important;
+        height: 7px !important;
+    }
+    .carousel-control-next{
+        margin-right: -1.4rem;
+    }
+    .carousel-control-prev{
+        margin-left: -1.4rem;
+    }
+   
+}

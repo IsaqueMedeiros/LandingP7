@@ -1,0 +1,53 @@
+.DobraMobile-Container-1{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra1/Dobra1Mobile.png');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+.botao_parte_mobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra1/Ativo.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+@media only screen and (min-width:500px) and (max-width:699px) {
+    .DobraMobile-Container-1{
+        justify-content: center;
+        height: 100vh;
+        align-items: flex-start;
+    }
+    .aLL_TXT_mobile1{
+        margin-left: 5rem;
+    }
+    .botao_parte_mobile{
+        border-radius: 50px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 150px;
+    }
+    
+    
+}
+
+@media only screen and (min-width:280px) and (max-width:499px) {
+    .DobraMobile-Container-1{
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+
+    }
+    .botao_parte_mobile{
+        border-radius: 50px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 150px;
+    }
+    
+    
+}

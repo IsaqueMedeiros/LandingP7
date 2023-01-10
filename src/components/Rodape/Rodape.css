@@ -1,0 +1,158 @@
+.RodapeContainer{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Footer/FooterBK.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+@media only screen and (min-width: 1200px) {
+    .RodapeContainer{
+        height: 40vh;
+    }
+    .conteudoRodape{
+        display: flex;
+        justify-content: space-between;
+        height:  100%;
+        width: 100%;
+    
+    }
+    .TextosRodape{
+        width: 100%;
+        margin-top:  6rem;
+    }
+    .LogoRodape{
+        width: 140px;
+        height: 140px;
+    }
+    .icon{
+        margin-left: -3.5rem;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 7px;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+  
+    .politicaDadosLink{
+        text-decoration: underline;
+    }
+    .politicaDadosLink:visited{
+        color: #00c8ff;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width:1199px) {
+    .RodapeContainer{
+        height: 40vh;
+    }
+    .conteudoRodape{
+        display: flex;
+        justify-content: space-between;
+        height:  100%;
+        width: 100%;   
+    
+    }
+    .TextosRodape{
+        width: 100%;
+        margin-top:  6rem;
+    }
+    .LogoRodape{
+        width: 140px;
+        height: 140px;
+    }
+    .icon{
+        margin-left: -3.5rem;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 7px;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+  
+    .politicaDadosLink{
+        text-decoration: underline;
+    }
+    .politicaDadosLink:visited{
+        color: #00c8ff;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width:899px) {
+    .RodapeContainer{
+        height: 40vh;
+    }
+    .conteudoRodape{
+        display: flex;
+        justify-content: space-between;
+        height:  100%;
+        width: 100%;       
+    
+    }
+    .TextosRodape{
+        width: 100%;
+        margin-top:  6rem;
+    }
+    .LogoRodape{
+        width: 140px;
+        height: 140px;
+    }
+    .icon{
+        margin-left: -3.5rem;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 7px;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+  
+    .politicaDadosLink{
+        text-decoration: underline;
+    }
+    .politicaDadosLink:visited{
+        color: #00c8ff;
+    }
+}
+/* Mobile */
+@media only screen and (min-width: 0px) and (max-width:499px)  {
+    .RodapeContainer{
+        height: 40vh;
+    }
+    .conteudoRodape{
+        display: flex;
+        justify-content: space-between;
+        height:  100%;
+        width: 100%;    
+    
+    }
+    .TextosRodape{
+        width: 100%;
+        margin-top:  5rem;
+    }
+    .LogoRodape{
+        width: 70px;
+        height: 70px;
+    }
+    .redesSociaisTexto{
+        margin-right: 2rem;
+        width: 6rem;
+    }
+    .icon{
+        margin-left: -3rem;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 7px;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .privacidadeTexto{
+        font-size:0.7rem;
+    }
+    .politicaDadosLink{
+        text-decoration: underline;
+    }
+    .politicaDadosLink:visited{
+        color: #00c8ff;
+    }
+}

@@ -1,0 +1,228 @@
+.DobraMobile-Container-3{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra3/BK3.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+.interessou_btn{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra3/Ativo3.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+.BKTXT3Mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px ;
+    width: 250px;
+    margin-top:20rem;
+    margin-left: -1.5rem;
+    /* Background */
+    background-image: url('/img/Dobra3/fundotxtC3.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+}
+/* Fotos das seções */
+.coworkingMobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+      background-image: url('/img/Dobra3/Fotos_EspaçosM/coworking.jpg');
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size:cover;
+      background-position: center;
+  }
+  .salaPrivativaimgMobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+      background-image: url('/img/Dobra3/Fotos_EspaçosM/salaPrivativa.jpg');
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size:cover;
+      background-position: center;
+  }
+  .andarCorridoimgMobile{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+      background-image: url('/img/Dobra3/Fotos_EspaçosM/andarCorrido.jpg');
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size:cover;
+      background-position: center;
+  }
+  .salaReuniaoimgMobile{
+    background-image: url('/img/Dobra3/Fotos_EspaçosM/salaReuniao.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .auditorioimgMobile{
+    background-image: url('/img/Dobra3/Fotos_EspaçosM/auditorio.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  .restauranteimgMobile{
+    background-image: url('/img/Dobra3/Fotos_EspaçosM/restaurante.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  /* Fotos das seções (END) */
+
+@media only screen and (min-width: 500px) and (max-width:699px) {
+    .DobraMobile-Container-3{
+        height: 100vh;
+    }
+    .interessou_btn{
+        height: 50px;
+        width: 300px;
+        border-radius: 40px;
+        display: grid;
+        place-content: center;
+    }
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 0px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+      .slick-slider {
+        margin:0 0px;
+    }
+    
+    .Scrollside-Mobile{
+        max-width: 240px;
+        height: 400px;
+        margin-top: 40px;
+        padding: 0px;    
+    }
+    
+    .ScrollSide-mobille-responsividade{
+        margin-left: 0%;
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width:499px) {
+    .DobraMobile-Container-3{
+        height: 100vh;
+    }
+    .interessou_btn{
+        height: 50px;
+        width: 300px;
+        border-radius: 40px;
+        display: grid;
+        place-content: center;
+    }
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+      .slick-slider {
+        margin:0 50px;
+    }
+    
+    .Scrollside-Mobile{
+        max-width: 250px;
+        height: 400px;
+        margin-top: 40px;
+        padding: 0px;    
+    }
+    
+    .ScrollSide-mobille-responsividade{
+        margin-left: 0%;
+    }
+    
+}
+
+@media only screen and (min-width:370px) and (max-width:399px) {
+    .DobraMobile-Container-3{
+        height: 100vh;
+    }
+    .interessou_btn{
+        height: 50px;
+        width: 300px;
+        border-radius: 40px;
+        display: grid;
+        place-content: center;
+    }
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+      .slick-slider {
+        margin:0 30px;
+    }
+    
+    .Scrollside-Mobile{
+        max-width: 250px;
+        height: 400px;
+        margin-top: 40px;
+        padding: 0px;    
+    }
+    
+    .ScrollSide-mobille-responsividade{
+        margin-left: 0%;
+    }
+    
+}
+@media only screen and (min-width:0px) and (max-width:369px) {
+    .DobraMobile-Container-3{
+        height: 100vh;
+    }
+    .interessou_btn{
+        height: 50px;
+        width: 300px;
+        border-radius: 40px;
+        display: grid;
+        place-content: center;
+    }
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+      }
+      .slick-slider {
+        margin:0 30px;
+    }
+    
+    .Scrollside-Mobile{
+        max-width: 250px;
+        height: 400px;
+        margin-top: 40px;
+        padding: 0px;    
+    }
+    
+    .ScrollSide-mobille-responsividade{
+        margin-left: 0%;
+    }
+    
+}

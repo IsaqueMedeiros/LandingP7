@@ -1,0 +1,66 @@
+.DobraMobile-Container-5{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/GrafismoBK5.svg'),url('/img/Dobra5/BK5.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-attachment:scroll,scroll;
+    background-size:cover,cover;
+    background-position: center,center;
+    height: 100vh;
+} 
+  /* Logos empresas Parceiras */
+
+  .Logos-Mobile_5{
+    width: 200px;
+    height: 60px;
+
+  }
+  .logoSesi{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/Sesi.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoSenai{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/Senai.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoIel{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/IEL.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+  .logoFiemg{
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/LogosParceiras/FIEMG.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+  }
+    /* Logos empresas Parceiras (END)*/
+
+.SISTEMA_FI{
+    max-width: 300px;
+}
+.all_txt_fi{
+    max-width: 305px;
+}
+.EntreP7_btn{
+    width: 300px;
+    height: 40px;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra5/Ativo5.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position: center;
+}
