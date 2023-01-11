@@ -7,11 +7,11 @@ import Index from "../Index/Index";
 const Pages = () => {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
-        <Route path="/NavBar" element={<NavBar />} />
         <Route index element={<Index />} />
-        <Route path="/Rodape" element={<Rodape />} />
       </Routes>
+      <Rodape />
     </BrowserRouter>
   );
 };
