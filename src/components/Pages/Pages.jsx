@@ -8,9 +8,9 @@ const Pages = () => {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path="/NavBar" element={<NavBar />} />
-      <Route index element={<Index />} />
-      <Route path="/Rodape" element={<Rodape />} />
+        <Route path="/NavBar" element={<NavBar />} />
+        <Route index element={<Index />} />
+        <Route path="/Rodape" element={<Rodape />} />
       </Routes>
     </BrowserRouter>
   );
