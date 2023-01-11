@@ -1,4 +1,4 @@
-;import React from "react";
+import React from "react";
 import IndexMobile from './Mobile/IndexMobile'
 import IndexDesktop  from "./Desktop/IndexDesktop";
 
