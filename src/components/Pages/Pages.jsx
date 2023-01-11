@@ -6,13 +6,13 @@ import Index from "../Index/Index";
 
 const Pages = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route index element={<Index />} />
       </Routes>
       <Rodape />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
