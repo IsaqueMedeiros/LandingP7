@@ -1,7 +1,7 @@
 {
   "homepage": "https://IsaqueMedeiros.github.io/LandingP7",
   "name": "landing",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
