@@ -12,7 +12,7 @@ const Rodape = () => {
     <div className="RodapeContainer overflow-hidden w-full flex flex-col items-center justify-center bg-slate-400 text-white">
       <div className="conteudoRodape flex-col ">
         <div className="TextosRodape  flex flex-row items-center justify-evenly">
-        <img className="LogoRodape" src="/img/Footer/LogoP7.svg"/>
+        <div className="LogoRodape"></div>
           <h1 className="redesSociaisTexto" >Acompanhe nossas redes sociais</h1>
           <div className="redesSociaisIcones">
            <a href="https://www.instagram.com/p7.criativo/" rel="Instagram" ><div className="iconeInstagram mb-8">

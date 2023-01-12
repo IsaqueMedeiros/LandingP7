@@ -14,15 +14,13 @@ header {
   justify-content: space-around;
   height: 100px;
   padding: 0 2rem;
-
   box-shadow: inset 0px 0px 0px 600px rgba(0, 0, 0, .0);
-  background-image: url('./img/nav_deisgn-01.svg');
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size:cover;
-  background-position-x: center;
-
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./img/nav_deisgn-01.svg');
   color: var(--textColor);
   overflow: hidden;
 }
@@ -50,12 +48,7 @@ header .nav-btn {
   overflow: hidden;
 }
 
-/* header div,
-nav {
-  display: flex;
-  align-items: center;
 
-} */
 
 /* Estilo dos botões */
 
@@ -63,5 +56,6 @@ nav {
   width: 70px;
   height: 70px;
   z-index: 999;
+  background-image: url('/img/Header/LogoP7.svg');
 }
 
