@@ -54,8 +54,9 @@ header .nav-btn {
 
 .logo_Navbar {
   width: 70px;
-  height: 70px;
+  height: 72px;
   z-index: 999;
-  background-image: url('/img/Header/LogoP7.svg');
+background-repeat: no-repeat;
+  background-image: url('/img/Header/LogoP7-01.svg');
 }
 

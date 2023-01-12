@@ -48,12 +48,10 @@ const DobraMobile_2 = () => {
           ></button>
         </div>
         <div className="carousel-inner relative w-64 h-96 overflow-hidden">
-          <div className="carousel-item active relative float-left w-full">
-            <img
-              src="/img/Dobra2/iconesD2/iconeCriativa.svg"
+          <div className="carousel-item eco-icon-mobile active relative float-left w-full">
+            <div
               className="block w-32 h-32 rounded-full ml-16"
-              alt="..."
-            />
+            ></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">NOSSA ECONOMIA É CRIATIVA</h5>
               <p className="mt-3" >
@@ -61,12 +59,10 @@ const DobraMobile_2 = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="/img/Dobra2/iconesD2/iconeNetwork.svg"
+          <div className="carousel-item net-icon-mobile relative float-left w-full">
+            <div
               className="block w-32 h-32 rounded-full ml-16"
-              alt="..."
-            />
+            ></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">NETWORKING</h5>
               <p className="mt-3">
@@ -74,12 +70,10 @@ const DobraMobile_2 = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="/img/Dobra2/iconesD2/iconeDesenvolvimento.svg"
+          <div className="carousel-item des-icon-mobile relative float-left w-full">
+            <div
               className="block w-32 h-32 rounded-full ml-16 "
-              alt="..."
-            />
+            ></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">DESENVOLVIMENTO</h5>
               <p className="mt-3">
@@ -87,12 +81,10 @@ const DobraMobile_2 = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="/img/Dobra2/iconesD2/iconeExpansao.svg"
+          <div className="carousel-item ex-icon-mobile relative float-left w-full">
+            <div
               className="block w-32 h-32 rounded-full ml-16 "
-              alt="..."
-            />
+            ></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">EXPANSÃO</h5>
               <p className="mt-3">
@@ -100,12 +92,10 @@ const DobraMobile_2 = () => {
               </p>
             </div>
           </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="/img/Dobra2/iconesD2/iconeVirtual.svg"
+          <div className="carousel-item virtu-icon-mobile relative float-left w-full">
+            <div
               className="block w-32 h-32 rounded-full ml-16 "
-              alt="..."
-            />
+            ></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">RESIDENTE VIRTUAL</h5>
               <p className="mt-3">

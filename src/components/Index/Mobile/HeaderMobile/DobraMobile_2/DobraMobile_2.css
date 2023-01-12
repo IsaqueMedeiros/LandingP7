@@ -15,6 +15,44 @@
     background-size:cover;
     background-position:center;
 }
+/* Fotos dos cartões */
+.eco-icon-mobile{
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position:center;
+    background-image: url("        /img/Dobra2/iconesD2/iconeCriativa.svg   ");
+}
+.net-icon-mobile{
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position:center;
+    background-image: url("    /img/Dobra2/iconesD2/iconeNetwork.svg    ");
+}
+
+.des-icon-mobile{
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position:center;
+    background-image: url("/img/Dobra2/iconesD2/iconeDesenvolvimento.svg");
+}
+.ex-icon-mobile{
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position:center;
+    background-image: url("/img/Dobra2/iconesD2/iconeExpansao.svg");
+}
+.virtu-icon-mobile{
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    background-position:center;
+    background-image: url("/img/Dobra2/iconesD2/iconeVirtual.svg");
+}
+/* Fotos dos cartões (END) */
 @media only screen and (min-width:500px) and (max-width:699px) {
     .DobraMobile-Container-2 {
         height:100vh;
