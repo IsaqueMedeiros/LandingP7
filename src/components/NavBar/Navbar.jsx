@@ -25,65 +25,23 @@ function Navbar() {
         </button>
       </p>
 
-      <nav className="txt-links-all" ref={navRef}>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#Diferente");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+      <nav className="txt-links-all">
+        <a className=" Hide TXT-links">
           <p className="text-base">DIFERENCIAIS</p>
         </a>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#Espaços");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+        <a className=" Hide TXT-links">
           <p className="text-base">ESPAÇOS</p>
         </a>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#Serviços");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+        <a className=" Hide TXT-links">
           <p className="text-base">SERVIÇOS</p>
         </a>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#SistemaFIEMG");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+        <a className=" Hide TXT-links">
           <p className="text-base">SISTEMA FIEMG</p>
         </a>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#QuemEstaNoP7");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+        <a className=" Hide TXT-links">
           <p className="text-base">QUEM ESTÁ NO P7</p>
         </a>
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.replace("/#EntreParaP7");
-          }}
-          className=" Hide TXT-links"
-          href="/#"
-        >
+        <a className=" Hide TXT-links">
           <p className="text-base">ENTRE PARA O P7</p>
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
