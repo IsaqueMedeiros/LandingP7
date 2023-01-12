@@ -124,7 +124,7 @@
       align-items:flex-end;
       justify-content: center;
       gap: 1.5rem;
-      background-image: url('./img/nav_deisgn-01.svg');
+      background-image: url('/img/navBK.svg');
       transition: 0.8s;
       transform: translateY(-100vh);
       z-index: 998;
