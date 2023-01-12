@@ -25,7 +25,7 @@ function Navbar() {
         </button>
       </p>
 
-      <nav className="txt-links-all">
+      <nav className="txt-links-all" ref={navRef}>
         <a className=" Hide TXT-links">
           <p className="text-base">DIFERENCIAIS</p>
         </a>
