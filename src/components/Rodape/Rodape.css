@@ -7,9 +7,10 @@
     background-position: center;
 }
 .LogoRodape{
-    background-image: url('/img/Footer/LogoP7.svg');
+    background-image: url('/img/Footer/LogoP7-01.svg');
 
 }
+
 @media only screen and (min-width: 1200px) {
     .RodapeContainer{
         height: 40vh;
