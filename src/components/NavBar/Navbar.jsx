@@ -27,9 +27,9 @@ function Navbar() {
       </p>
 
       <nav className="txt-links-all" ref={navRef} >
-        <Link>
+        <a>
           <p className="text-base">DIFERENCIAIS</p>
-        </Link>
+        </a>
         <a>
           <p className="text-base">ESPAÇOS</p>
         </a>
