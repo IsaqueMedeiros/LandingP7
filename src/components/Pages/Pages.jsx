@@ -1,18 +1,20 @@
 import React from "react";
-import { HashRouter,BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "../NavBar/Navbar";
 import Rodape from "../Rodape/Rodape";
 import Index from "../Index/Index";
 
 const Pages = () => {
   return (
-    <HashRouter>
+    <div>
       <NavBar />
-      <Routes>
-        <Route index element={<Index />} />
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route index element={<Index />} />
+        </Routes>
+      </HashRouter>
       <Rodape />
-    </HashRouter>
+    </div>
   );
 };
 

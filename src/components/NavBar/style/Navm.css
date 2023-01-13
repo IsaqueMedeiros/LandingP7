@@ -49,7 +49,7 @@ header .nav-btn {
 
 }
 header nav {
-    height: 60%;
+    height: 65%;
     width: 100%;
 }
 .TXT-links{
@@ -85,7 +85,7 @@ header .nav-btn {
 
 }
 header nav {
-    height: 85%;
+    height: 65%;
     width: 100%;
 }
 .TXT-links{
@@ -105,7 +105,7 @@ header nav {
   }
 }
 /* Sidebar no mobile */
-@media only screen and (max-width: 699px) {
+/* @media only screen and (max-width: 699px) {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -143,4 +143,4 @@ header nav {
     position: relative;
     font-size: 1rem;
   }
-}
+} */

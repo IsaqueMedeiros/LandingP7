@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { HashLink as Link } from "react-router-hash-link";
 import "./style/Nav.css";
 import "./style/Navd.css";
 import "./style/Navm.css";
@@ -12,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <header className="overflow-x-hidden">
+    <header className="overflow-hidden">
       <div className="logo_Navbar"></div>
       <p className="entrar_p7_btn Texto-Navbar-Desktop">
         <button>
@@ -25,23 +26,23 @@ function Navbar() {
         </button>
       </p>
 
-      <nav className="txt-links-all" ref={navRef}>
-        <a className=" Hide TXT-links">
+      <nav className="txt-links-all" ref={navRef} >
+        <Link>
           <p className="text-base">DIFERENCIAIS</p>
-        </a>
-        <a className=" Hide TXT-links">
+        </Link>
+        <a>
           <p className="text-base">ESPAÇOS</p>
         </a>
-        <a className=" Hide TXT-links">
+        <a>
           <p className="text-base">SERVIÇOS</p>
         </a>
-        <a className=" Hide TXT-links">
+        <a>
           <p className="text-base">SISTEMA FIEMG</p>
         </a>
-        <a className=" Hide TXT-links">
+        <a>
           <p className="text-base">QUEM ESTÁ NO P7</p>
         </a>
-        <a className=" Hide TXT-links">
+        <a>
           <p className="text-base">ENTRE PARA O P7</p>
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

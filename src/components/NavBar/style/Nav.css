@@ -14,13 +14,13 @@ header {
   justify-content: space-around;
   height: 100px;
   padding: 0 2rem;
-  box-shadow: inset 0px 0px 0px 600px rgba(0, 0, 0, .0);
+  box-shadow: inset 0px 0px 0px 600px rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
+  background-attachment: scroll;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('/img/navBK.svg');
+  background-image: url("/img/navBK.svg");
   color: var(--textColor);
   overflow: hidden;
 }
@@ -47,8 +47,54 @@ header .nav-btn {
   font-size: 1.8rem;
   overflow: hidden;
 }
+/* Abertura da navbar na vertical */
 
+@media screen and (max-width: 10000px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
 
+  header nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Header/verticalBK.svg");
+    transition: 0.8s;
+    transform: translateY(-100vh);
+    z-index: 998;
+    overflow: hidden;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+  }
+
+  nav a {
+    top: 2rem;
+    position: relative;
+    font-size: 1rem;
+  }
+}
+
+/* Abertura da navbar na vertical (END)*/
 
 /* Estilo dos botões */
 
@@ -56,7 +102,6 @@ header .nav-btn {
   width: 70px;
   height: 72px;
   z-index: 999;
-background-repeat: no-repeat;
-  background-image: url('/img/Header/LogoP7-01.svg');
+  background-repeat: no-repeat;
+  background-image: url("/img/Header/LogoP7-01.svg");
 }
-
