@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640.62 158.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome" data-name="Gradiente sem nome" x1="0" y1="-84.75" x2="640.62" y2="-84.75" gradientTransform="translate(0 164)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#734098"/>
+      <stop offset=".15" stop-color="#734098"/>
+      <stop offset="1" stop-color="#00afbe"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_2-2" data-name="Camada 2">
+    <g id="Shape_5" data-name="Shape 5">
+      <rect class="cls-1" width="640.62" height="158.52"/>
+    </g>
+  </g>
+</svg>

@@ -11,6 +11,9 @@ function Navbar() {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+  function lockScroll() {
+    document.body.classList.toggle('lock-scroll');
+}
 
   return (
     <header className="overflow-hidden">
@@ -45,11 +48,11 @@ function Navbar() {
         <a>
           <p className="text-base">ENTRE PARA O P7</p>
         </a>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+        <button className="nav-btn nav-close-btn"  onClick={() =>{lockScroll();showNavbar()}} >
           <FaTimes />
         </button>
       </nav>
-      <button className="nav-btn" onClick={showNavbar}>
+      <button className="nav-btn" id="mob-menu-btn"  onClick={() =>{lockScroll();showNavbar()}}>
         <FaBars />
       </button>
     </header>
