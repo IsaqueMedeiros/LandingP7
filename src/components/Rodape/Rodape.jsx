@@ -47,15 +47,9 @@ const Rodape = () => {
             </a>
           </div>
         </div>
-        <p className="privacidadeTexto w-full  flex flex-row items-end justify-center">
-          <a
-            href="https://www7.fiemg.com.br/Cms_Data/Contents/central/Media/FIEMG/LGPD/MF001220BH_CARTILHA2_LGPD_aprov.pdf"
-            rel="PrivacyPolitic"
-            className="politicaDadosLink"
-          >
-            Acesse aqui
-          </a>
-          &nbsp;a política de privacidade e proteção de dados da FIEMG.
+        <p className="Copyright text-sm w-full  flex flex-row items-end justify-center">
+          
+        ©2022 IEL FIEMG, Inc. Todos Direitos Reservados
         </p>
       </div>
     </div>

@@ -129,6 +129,7 @@ const Form1 = (props) => {
           <p className="text-[#883093]" >Próximo</p>
         </button>
       </div>
+
       <div id="pjStep2" className="pessoaJuridicaConteudo2 hidden">
         <InputMask
           mask="99.999.999/9999-99"
@@ -215,6 +216,7 @@ const Form1 = (props) => {
           className="enviarpjBTN bg-white cursor-pointer text-white"
         />
       </div>
+     
     </form>
   );
 };

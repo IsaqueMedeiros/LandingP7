@@ -1,7 +1,6 @@
 
 /* Firefox */
 
-
 .Footer_Container7 {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
     background-image:url('/img/Dobra7/BK7.svg');
@@ -19,6 +18,18 @@
   background-size:cover;
   background-position:center;
 }
+/* politica de privacidade (START) */
+.politicaDadosLink{
+  color: #fff;
+  text-decoration: underline;
+}
+.politicaDadosLink:visited{
+  color: #ffa305
+
+  ;
+}
+/* politica de privacidade (END) */
+
 
 @media only screen and (min-width: 1200px) {
   .formMainH1 {

@@ -39,13 +39,6 @@
         height: 1.4rem;
     }
     
-  
-    .politicaDadosLink{
-        text-decoration: underline;
-    }
-    .politicaDadosLink:visited{
-        color: #00c8ff;
-    }
 }
 @media only screen and (min-width: 900px) and (max-width:1199px) {
     .RodapeContainer{
@@ -76,12 +69,7 @@
     }
     
   
-    .politicaDadosLink{
-        text-decoration: underline;
-    }
-    .politicaDadosLink:visited{
-        color: #00c8ff;
-    }
+   
 }
 @media only screen and (min-width: 500px) and (max-width:899px) {
     .RodapeContainer{
@@ -112,12 +100,7 @@
     }
     
   
-    .politicaDadosLink{
-        text-decoration: underline;
-    }
-    .politicaDadosLink:visited{
-        color: #00c8ff;
-    }
+   
 }
 /* Mobile */
 @media only screen and (min-width: 0px) and (max-width:499px)  {
@@ -154,10 +137,5 @@
     .privacidadeTexto{
         font-size:0.7rem;
     }
-    .politicaDadosLink{
-        text-decoration: underline;
-    }
-    .politicaDadosLink:visited{
-        color: #00c8ff;
-    }
+   
 }

@@ -62,6 +62,16 @@ function FooterDesktop_7() {
         <Form2/>
       
         {/* Fim Pessoa Física Form */}
+        <p className="privacidadeTexto flex justify-center text-white">
+          <a
+            href="https://www7.fiemg.com.br/Cms_Data/Contents/central/Media/FIEMG/LGPD/MF001220BH_CARTILHA2_LGPD_aprov.pdf"
+            rel="PrivacyPolitic"
+            className="politicaDadosLink"
+          >
+            Acesse aqui
+          </a>
+          &nbsp;a política de privacidade e proteção de dados da FIEMG.
+        </p>
       </div>
     </div>
   );
