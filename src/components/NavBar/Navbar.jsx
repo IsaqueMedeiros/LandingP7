@@ -1,13 +1,11 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { HashLink as Link } from "react-router-hash-link";
 import "./style/Nav.css";
 import "./style/Navd.css";
 import "./style/Navm.css";
 
 function Navbar() {
   const navRef = useRef();
-
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
@@ -30,22 +28,22 @@ function Navbar() {
       </p>
 
       <nav className="txt-links-all" ref={navRef} >
-        <a>
+        <a href="#Diferente" >
           <p className="text-base">DIFERENCIAIS</p>
         </a>
-        <a>
+        <a href="#Espaços">
           <p className="text-base">ESPAÇOS</p>
         </a>
-        <a>
+        <a href="#Serviços" >
           <p className="text-base">SERVIÇOS</p>
         </a>
-        <a>
+        <a href="#SistemaFIEMG" >
           <p className="text-base">SISTEMA FIEMG</p>
         </a>
-        <a>
+        <a href="#QuemEstaNoP7" >
           <p className="text-base">QUEM ESTÁ NO P7</p>
         </a>
-        <a>
+        <a href="#EntreParaP7" >
           <p className="text-base">ENTRE PARA O P7</p>
         </a>
         <button className="nav-btn nav-close-btn"  onClick={() =>{lockScroll();showNavbar()}} >
