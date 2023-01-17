@@ -32,8 +32,8 @@ function FooterDesktop_7() {
       <h1 className="formMainH1 text-white">
         Entre para nossa comunidade e impulsone seus negócios.
       </h1>
-      <div className="ConteudoFormTotal flex flex-col items-center justify-evenly overflow-hidden">
-        <p className="text-white text-center">
+      <div className="ConteudoFormTotal flex flex-col items-center justify-around overflow-hidden">
+        <p className="text-white text-base text-center">
           Criamos pontes entre empresas, pessoas
           <br /> e projetos que se complementam.
         </p>
@@ -62,7 +62,7 @@ function FooterDesktop_7() {
         <Form2/>
       
         {/* Fim Pessoa Física Form */}
-        <p className="privacidadeTexto flex justify-center text-white">
+        <p className="privacidadeTexto flex justify-center text-white text-xs">
           <a
             href="https://www7.fiemg.com.br/Cms_Data/Contents/central/Media/FIEMG/LGPD/MF001220BH_CARTILHA2_LGPD_aprov.pdf"
             rel="PrivacyPolitic"

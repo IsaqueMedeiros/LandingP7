@@ -21,7 +21,7 @@
   
   .Logos-Desktop_5{
     width: 200px;
-    height: 60px;
+    height: 50px;
 
   }
   .logoSesi{
@@ -68,9 +68,9 @@
     justify-content: center;
   }
   .titulo-desktop5{
-    width: 25rem;
-    font-size: 2.5rem;
-    margin-left: 5rem;
+    width: 17rem;
+    font-size:1.8rem;
+    margin-left:0rem;
   }
   .conteudo-grid-5 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -81,10 +81,10 @@
     margin-top: 0rem;
   }
   .Segundotxt-Desktop_5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     max-width: 20rem;
     margin-top: -10rem;
-    margin-left: 0.5rem;
+    margin-left: 3rem;
 
   }
   .Todas-Logos-Desktop_5{
@@ -95,8 +95,8 @@
   }
   
   .EntreP7-btn-desktop_5 {
-    width: 300px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     margin-top: -5rem;
     margin-right: 10rem;
 
@@ -108,9 +108,9 @@
     justify-content: center;
   }
   .titulo-desktop5{
-    width: 20rem;
-    font-size: 2rem;
-    margin-left: 1rem;
+    width: 17rem;
+    font-size:1.8rem;
+    margin-left:0rem;
   }
   .conteudo-grid-5 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -121,10 +121,10 @@
     margin-top: 0rem;
   }
   .Segundotxt-Desktop_5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     max-width: 20rem;
     margin-top: -10rem;
-    margin-left: 0.5rem;
+    margin-left: 3rem;
 
   }
   .Todas-Logos-Desktop_5{
@@ -134,7 +134,7 @@
     height: 300px;
   }
   .EntreP7-btn-desktop_5 {
-    width: 250px;
+    width: 200px;
     height: 50px;
     margin-top: -5rem;
     margin-right: 10rem;
@@ -147,9 +147,9 @@
     justify-content: center;
   }
   .titulo-desktop5{
-    width: 15rem;
-    font-size: 1.5rem;
-    margin-left: 1rem;
+    width: 17rem;
+    font-size:1.8rem;
+    margin-left:5%;
   }
   .conteudo-grid-5 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -160,10 +160,10 @@
     margin-top: 0rem;
   }
   .Segundotxt-Desktop_5 {
-    font-size: 0.9rem;
-    max-width: 15rem;
+    font-size: 1rem;
+    max-width: 17rem;
     margin-top: -5rem;
-    margin-left: 1.5rem;
+    margin-left: 4%;
 
   }
   .Todas-Logos-Desktop_5{
@@ -173,8 +173,8 @@
     height: 250px;
   }
   .EntreP7-btn-desktop_5 {
-    width: 250px;
-    height: 45px;
+    width: 200px;
+    height: 50px;
     margin-top: -5rem;
     margin-right: 10rem;
 

@@ -73,12 +73,12 @@
     height: 100vh;
   }
   .titulo-desktop6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 25rem;
   }
   .texto-desktop_6{
-    font-size: 1.2rem;
-    max-width:26rem;
+    font-size: 1rem;
+    max-width:20rem;
   }
   .Textos-desktop_6 {
     max-width: 500px;
@@ -86,7 +86,7 @@
     margin-left: 12.5%;
   }
   .txt-scrollside-container_6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 20rem;
     position: absolute;  
   }
@@ -99,13 +99,13 @@
   
   .ScrollSide-desktop6 {
     margin-top: 0rem;
-    max-width: 200px;
-    height: 150px;
+    max-width: 190px;
+    height: 120px;
     border: 1px solid #fff;
   }
   .agendeTour-btn {
-    height:60px;
-    width: 350px;
+    height:50px;
+    width: 300px;
     border-radius: 40px;
     position: absolute;
     margin-left: 45%;
@@ -117,20 +117,20 @@
     height: 100vh;
   }
   .titulo-desktop6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 25rem;
   }
   .texto-desktop_6{
-    font-size: 1.2rem;
-    max-width:26rem;
+    font-size: 1rem;
+    max-width:20rem;
   }
   .Textos-desktop_6 {
     max-width: 500px;
     margin-top: 10rem;
-    margin-left: 10%;
+    margin-left: 12.5%;
   }
   .txt-scrollside-container_6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 20rem;
     position: absolute;  
   }
@@ -138,18 +138,18 @@
   .ScrollSide-position_6 {
     margin-top: 5rem;
     max-width: 850px;
-    margin-left: 10%;
+    margin-left: 12.5%;
   }
   
   .ScrollSide-desktop6 {
     margin-top: 0rem;
-    max-width: 200px;
-    height: 150px;
+    max-width: 190px;
+    height: 120px;
     border: 1px solid #fff;
   }
   .agendeTour-btn {
-    height:60px;
-    width: 350px;
+    height:50px;
+    width: 300px;
     border-radius: 40px;
     position: absolute;
     margin-left: 45%;
@@ -161,20 +161,20 @@
     height: 100vh;
   }
   .titulo-desktop6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 25rem;
   }
   .texto-desktop_6{
-    font-size: 1.2rem;
-    max-width:26rem;
+    font-size: 1rem;
+    max-width:20rem;
   }
   .Textos-desktop_6 {
     max-width: 500px;
     margin-top: 10rem;
-    margin-left: 10%;
+    margin-left: 12.5%;
   }
   .txt-scrollside-container_6{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 20rem;
     position: absolute;  
   }
@@ -182,15 +182,13 @@
   .ScrollSide-position_6 {
     margin-top: 5rem;
     max-width: 850px;
-    margin-left: 10%;
+    margin-left: 12.5%;
   }
-  .slick-slider {
-    margin:0 -30px;
-}
+  
   .ScrollSide-desktop6 {
     margin-top: 0rem;
-    max-width: 200px;
-    height: 150px;
+    max-width: 190px;
+    height: 120px;
     border: 1px solid #fff;
   }
   .agendeTour-btn {
@@ -198,7 +196,7 @@
     width: 300px;
     border-radius: 40px;
     position: absolute;
-    margin-left: 40%;
-    margin-top: 38%;
+    margin-left: 45%;
+    margin-top: 15%;
   }
 }

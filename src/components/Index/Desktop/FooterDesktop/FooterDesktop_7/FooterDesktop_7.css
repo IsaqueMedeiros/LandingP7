@@ -33,9 +33,9 @@
 
 @media only screen and (min-width: 1200px) {
   .formMainH1 {
-    font-size: 2.3rem;
-    width: 20.5rem;
-    margin-bottom: 33rem;
+    font-size: 1.8rem;
+    width: 18rem;
+    margin-bottom: 25rem;
   }
 
   .ConteudoFormTotal {
@@ -56,7 +56,7 @@
   }
 
   .textLabels {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   /* Forms styles */
@@ -114,15 +114,8 @@
     color: #fff !important;
   }
 
-  .buttonPJProximo {
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-  }
-
   .divPassosPJ {
-    margin-top: -3.5rem;
+    margin-top: -2.3rem;
     margin-left: 19%;
   }
 
@@ -143,6 +136,13 @@
     margin-top: 45px;
     margin-left: -50px;
   }
+  .buttonPJProximo {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+  }
+
 
   /* pj conteúdo 2 */
   .pessoaJuridicaConteudo2 {
@@ -162,7 +162,7 @@
   }
 
   .titleInput-Check {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .allCheckInput {
@@ -175,7 +175,7 @@
   }
 
   .labelCheck-TXT {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .enviarpjBTN {
@@ -265,7 +265,7 @@
   }
 
   .divPassosPJ {
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     margin-left: 23%;
   }
 
@@ -333,12 +333,12 @@
     /* margin-left: 30%; */
     background-color: #893094;
     height: 90%;
-    width: 70%;
+    width: 60%;
     border-radius: 15px;
   }
 
   .allButtonsForm {
-    width: 60%;
+    width: 65%;
   }
 
   .buttonForm {
@@ -402,8 +402,8 @@
   }
 
   .divPassosPJ {
-    margin-top: -3.5rem;
-    margin-left: 33%;
+    margin-top: -2.5rem;
+    margin-left: 28%;
   }
 
   .buttonPJNextBall {
@@ -539,7 +539,7 @@
   }
 
   .divPassosPJ {
-    margin-top: -3.5rem;
+    margin-top: -3rem;
     margin-left: 43%;
   }
 
@@ -676,7 +676,7 @@
   }
 
   .divPassosPJ {
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     margin-left: 43%;
   }
 

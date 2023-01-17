@@ -12,7 +12,7 @@ const HeaderDesktop_1 = () => {
         </h1>
         <br />
         <br />
-        <p className="Text-Fonts-Size-Desktop-Version texto-desktop1 text-white">
+        <p className="texto-desktop1 text-white">
           Uma comunidade em que empresas e pessoas da Criatividade, inovação e
           tecnologia podem fazer conexões, empreender, colaborar entre si e
           desenvolver negócios relevantes.

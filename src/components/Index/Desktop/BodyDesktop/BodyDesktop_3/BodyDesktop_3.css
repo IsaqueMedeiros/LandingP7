@@ -2,16 +2,12 @@
   text-align: justify;
 }
 .slick-dots li button:before {
-  margin-top: 2rem;
   color: white;
 }
 .slick-dots li.slick-active button:before {
   color: White ;
 }
-.Scrollside-Desktop {
-  max-width: 280px;
-  height: 350px;
-}
+
 /* Container Estilo */
 
 .ContainerDesktop_3 {
@@ -89,7 +85,7 @@
   justify-content: center;
   height: 30px;
   width: 250px;
-  margin-top: 27rem;
+  margin-top: 24rem;
   margin-left: -1.5rem;
   /* Background */
   background-image: url("/img/Dobra3/fundotxtC3.svg");
@@ -106,12 +102,12 @@
     height: 100vh;
   }
   .titulo-desktop3 {
-    font-size: 2.5rem;
-    margin-right: 25%;
+    font-size: 1.8rem;
+    margin-right: 30%;
   }
   .Scrollside-Desktop {
-    max-width: 370px;
-    height: 500px;
+    max-width: 300px;
+    height: 450px;
     display: grid;
     margin: 0px;
     padding: 0px;
@@ -127,11 +123,6 @@
     color: black;
   }
 
-  /* .slick-prev {
-    left: -8rem;
-    z-index: 1;
-    color: black;
-  } */
   .slick-slider {
     margin: 0 50px;
   }
@@ -144,13 +135,13 @@
     height: 500px;
     padding: 0px;
   }
-  /* .slick-next {
-    right: 9rem;
-    z-index: 1;
-  } */
+  .slick-dots li button:before {
+    margin-top: 0rem;
+    color: white;
+  }
   .interessou-btn-desk {
-    height: 65px;
-    width: 400px;
+    height: 50px;
+    width: 300px;
     border-radius: 40px;
   }
 }
@@ -159,16 +150,18 @@
     height: 100vh;
   }
   .titulo-desktop3 {
-    font-size: 2rem;
-    margin-right: 25%;
+    font-size: 1.8rem;
+    margin-right: 30%;
   }
   .Scrollside-Desktop {
     max-width: 300px;
-    height: 400px;
+    height: 450px;
     display: grid;
     margin: 0px;
     padding: 0px;
   }
+  .slick-dots li button:before {
+    margin-top: -0.5rem; }
   .espacostxtC3 {
     margin-top: 21rem;
   }
@@ -202,16 +195,18 @@
     height: 100vh;
   }
   .titulo-desktop3 {
-    font-size: 1.5rem;
-    margin-right: 15%;
+    font-size: 1.8rem;
+    margin-right: 0%;
   }
   .Scrollside-Desktop {
-    max-width: 300px;
+    max-width: 250px;
     height: 400px;
     display: grid;
     margin: 0px;
     padding: 0px;
   }
+  .slick-dots li button:before {
+    margin-top: -1rem; }
   .espacostxtC3 {
     margin-top: 21rem;
   }

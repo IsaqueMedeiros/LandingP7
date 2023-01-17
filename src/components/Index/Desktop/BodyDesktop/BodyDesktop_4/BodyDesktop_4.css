@@ -7,10 +7,7 @@
   column-gap: 5rem;
   row-gap: 8rem;
 }
-.div_desktop_4 {
-  height: 70px;
-  width: 70px;
-}
+
 .Garanta-btn-desktop_4 {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
   background-image: url('/img/Dobra4/Ativo4.svg');
@@ -105,7 +102,7 @@
     height: 100vh;
   }
   .titulo-desktop4{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   .textos-desktop4_fontSize{
     font-size: 1rem;
@@ -129,13 +126,13 @@
     margin-left: 0rem;
   }
   .div_desktop_4 {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-top: -5rem;
   }
 
   .Garanta-btn-desktop_4 {
-    width: 350px;
+    width: 250px;
     height: 50px;
   }
 }
@@ -168,13 +165,13 @@
     margin-left: 0rem;
   }
   .div_desktop_4 {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-top: -5rem;
   }
 
   .Garanta-btn-desktop_4 {
-    width: 350px;
+    width: 250px;
     height: 50px;
   }
 }
@@ -208,13 +205,13 @@
     margin-left: 0rem;
   }
   .div_desktop_4 {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin-top: -5rem;
   }
 
   .Garanta-btn-desktop_4 {
-    width: 300px;
+    width: 250px;
     height: 50px;
   }
 }
