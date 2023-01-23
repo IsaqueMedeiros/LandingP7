@@ -46,6 +46,8 @@ export default class DobraMobile_6 extends Component {
           <Slider {...settings}>
             <div className="AutoPlay_Mobile_Style logo42BHMobile" >
             </div>
+            <div className="AutoPlay_Mobile_Style logoVidasMobile" >
+            </div>
             <div className="AutoPlay_Mobile_Style logoSenaiF6Mobile">
             </div>
             <div className="AutoPlay_Mobile_Style logoSesiF6Mobile">
