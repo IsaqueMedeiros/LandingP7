@@ -32,6 +32,8 @@ export default class FooterDesktop_6 extends Component {
         <Slider {...AutoCarousel}>
           <div className="ScrollSide-desktop6 logo42BH" >
           </div>
+          <div className="ScrollSide-desktop6 logoVidas" >
+          </div>
           <div  className="ScrollSide-desktop6 logoSenaiF6" >
           </div>
           <div  className="ScrollSide-desktop6 logoSesiF6" >

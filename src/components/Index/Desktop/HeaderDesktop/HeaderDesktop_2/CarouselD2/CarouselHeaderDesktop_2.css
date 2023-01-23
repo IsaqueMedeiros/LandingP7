@@ -66,6 +66,12 @@ background-position-y: center;
 
 @media only screen and (min-width: 900px) and (max-width:1149px) {
   .ContainerCarouselDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/Landing_Desktop_Dobra 2_3-01.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
     height: 100vh;
   }
   .titulo-Carousel-desktop2 {
@@ -114,6 +120,12 @@ background-position-y: center;
 }
 @media only screen and (min-width: 700px) and (max-width:899px) {
   .ContainerCarouselDesktop_2 {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+    background-image: url('/img/Dobra2/Landing_Desktop_Dobra 2_3-01.svg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-position: center;
     height: 100vh;
   }
   .titulo-Carousel-desktop2 {

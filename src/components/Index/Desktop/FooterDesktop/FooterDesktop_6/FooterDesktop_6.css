@@ -26,6 +26,14 @@
   background-size:10rem;
   background-position: center;
 }
+.logoVidas{
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
+  background-image: url('/img/Dobra6/LogosEspaçoP7/Logo-Vidas.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:10rem;
+  background-position: center;
+}
 .logoSenaiF6{
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
   background-image: url('/img/Dobra6/LogosEspaçoP7/Sesi.svg');
