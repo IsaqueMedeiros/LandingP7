@@ -10,7 +10,7 @@ import {
 const Rodape = () => {
   return (
     <div className="RodapeContainer overflow-hidden w-full flex flex-col items-center justify-center bg-slate-400 text-white">
-      <div className="conteudoRodape flex-col ">
+      <div className="conteudoRodape flex items-center justify-center flex-row ">
         <div className="TextosRodape  flex flex-row items-center justify-evenly">
           <div className="LogoRodape"></div>
           <h1 className="redesSociaisTexto">Acompanhe nossas redes sociais</h1>
@@ -47,11 +47,11 @@ const Rodape = () => {
             </a>
           </div>
         </div>
-        <p className="Copyright text-sm w-full  flex flex-row items-end justify-center">
-          
-        ©2022 IEL FIEMG, Inc. Todos Direitos Reservados
-        </p>
       </div>
+      <p className="Copyright mb-4 text-sm w-full  flex flex-row items-end justify-center">
+          
+          ©2022 IEL FIEMG, Inc. Todos Direitos Reservados
+          </p>
     </div>
   );
 };

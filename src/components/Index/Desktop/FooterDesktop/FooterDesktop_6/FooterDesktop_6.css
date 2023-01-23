@@ -1,10 +1,10 @@
 .ContainerDesktop_6{
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
-  background-image: url('/img/Dobra6/faixas.svg'),url('/img/Dobra6/FundoPredio.png');
-  background-repeat: no-repeat,no-repeat;
-  background-attachment:scroll,scroll;
-  background-size:95rem,cover;
-  background-position: left 20rem top 5rem,center;
+  background-image: url('/img/Dobra6/Landing_Desktop_Dobra 6-01.svg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center;
 }
 .agendeTour-btn{
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);

@@ -7,7 +7,7 @@ const Whatsapp = () => {
     <div className="WppContainerTotal">
       <div className="WppChatBox rounded-full flex flex-col items-center justify-center">
         <b>
-          <p className="WppText text-white  text-center">
+          <p className="WppText text-white text-xs  text-center">
             DÚVIDAS?
             <br />
             Fale comigo.

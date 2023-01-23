@@ -16,19 +16,23 @@
         height: 40vh;
     }
     .conteudoRodape{
-        display: flex;
-        justify-content: space-between;
+
+        justify-content: center;
         height:  100%;
         width: 100%;
     
     }
     .TextosRodape{
         width: 100%;
-        margin-top:  6rem;
+        height: 100%;
+        margin-top:  0rem;
     }
     .LogoRodape{
         width: 140px;
         height: 140px;
+    }
+    .redesSociaisTexto{
+        margin-right: 5%;
     }
     .icon{
         margin-left: -3.5rem;
@@ -45,19 +49,23 @@
         height: 40vh;
     }
     .conteudoRodape{
-        display: flex;
-        justify-content: space-between;
+
+        justify-content: center;
         height:  100%;
-        width: 100%;   
+        width: 100%;
     
     }
     .TextosRodape{
         width: 100%;
-        margin-top:  6rem;
+        height: 100%;
+        margin-top:  0rem;
     }
     .LogoRodape{
         width: 140px;
         height: 140px;
+    }
+    .redesSociaisTexto{
+        margin-right: 5%;
     }
     .icon{
         margin-left: -3.5rem;
@@ -67,7 +75,6 @@
         width: 1.4rem;
         height: 1.4rem;
     }
-    
   
    
 }
@@ -76,19 +83,23 @@
         height: 40vh;
     }
     .conteudoRodape{
-        display: flex;
-        justify-content: space-between;
+
+        justify-content: center;
         height:  100%;
-        width: 100%;       
+        width: 100%;
     
     }
     .TextosRodape{
         width: 100%;
-        margin-top:  6rem;
+        height: 100%;
+        margin-top:  0rem;
     }
     .LogoRodape{
         width: 140px;
         height: 140px;
+    }
+    .redesSociaisTexto{
+        margin-right: 11%;
     }
     .icon{
         margin-left: -3.5rem;
@@ -98,14 +109,13 @@
         width: 1.4rem;
         height: 1.4rem;
     }
-    
   
    
 }
 /* Mobile */
 @media only screen and (min-width: 0px) and (max-width:499px)  {
     .RodapeContainer{
-        height: 40vh;
+        height: 55vh;
     }
     .conteudoRodape{
         display: flex;
@@ -116,7 +126,7 @@
     }
     .TextosRodape{
         width: 100%;
-        margin-top:  5rem;
+        margin-top:  0rem;
     }
     .LogoRodape{
         width: 70px;

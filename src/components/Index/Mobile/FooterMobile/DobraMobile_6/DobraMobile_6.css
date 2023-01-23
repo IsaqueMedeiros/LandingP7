@@ -1,6 +1,6 @@
 .DobraMobile-Container-6{
     box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
-  background-image: url('/img/Dobra6/FundoPredioMobile.png');
+  background-image: url('/img/Dobra6/Landing_MobileP7_Dobra 6-01.svg');
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size:cover;
@@ -145,7 +145,7 @@
         margin-left: -2rem;
     }
     .AgendeTour_btn_mobile{
-        margin-top: 25rem;
+        margin-top: 22.5rem;
         height: 40px;
         width: 300px;
         position: absolute;
