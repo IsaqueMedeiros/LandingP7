@@ -3,8 +3,8 @@
   background-image: url('/img/Dobra6/Landing_Desktop_Dobra 6-01.svg');
   background-repeat: no-repeat;
   background-attachment:scroll;
-  background-size:cover;
-  background-position: center;
+  background-size:170%;
+  background-position: top;
 }
 .agendeTour-btn{
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
