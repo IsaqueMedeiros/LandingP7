@@ -3,7 +3,7 @@
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
   background-image: url('/img/Dobra1/Landing_Desktop_Dobra 1-01.svg');
   background-repeat: no-repeat;
-  background-attachment:scroll;
+  background-attachment:local;
   background-size:cover;
   background-position:center;
 }

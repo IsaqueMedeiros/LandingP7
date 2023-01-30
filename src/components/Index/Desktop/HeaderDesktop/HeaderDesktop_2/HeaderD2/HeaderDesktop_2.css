@@ -71,11 +71,18 @@
   .ALL-square-c2 {
     width: 100%;
   }
+
   .square-conteudo2-desktop {
     height: 500px;
     width: 300px;
     border: solid 1px #fff;
     overflow: hidden;
+    cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  }
+  .square-conteudo2-desktop:hover {
+    transform: scale(1.08);
+
   }
   .img-conteudo2-desktop {
     height: 125px;
