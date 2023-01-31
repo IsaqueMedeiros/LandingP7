@@ -356,8 +356,8 @@
   }
 
   .buttonForm {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 2.5px solid #fff;
   }
 
@@ -421,20 +421,21 @@
   }
 
   .divPassosPJ {
-    margin-top: -2.3rem;
+    margin-top: -1rem;
     margin-left: 19%;
+    height: 20px;
   }
 
   .buttonPJNextBall {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     margin-left: 1rem;
     border: 1px solid #fff;
   }
 
   .buttonPJAnteriorBall {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border: 1px solid #fff;
   }
 
