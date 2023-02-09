@@ -1,15 +1,6 @@
 .titulo-desktop3 {
   text-align: justify;
 }
-.slick-dots li button:before {
-  color: white;
-}
-.slick-dots li.slick-active button:before {
-  color: White ;
-}
-
-/* Container Estilo */
-
 .ContainerDesktop_3 {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
   background-image: url("/img/Dobra3/BK3.svg");
@@ -19,9 +10,6 @@
   background-position: center;
   height: 100vh;
 }
-/* Container Estilo(END) */
-
-/* Botao Estilo */
 .interessou-btn-desk {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
   background-image: url("/img/Dobra3/Ativo3.svg");
@@ -30,8 +18,6 @@
   background-size: cover;
   background-position: center;
 }
-/* Botao Estilo(END) */
-/* Fotos das seções */
 .coworkimg {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
   background-image: url("/img/Dobra3/Fotos_Espaços/coworking.jpg");
@@ -77,8 +63,6 @@
   background-size: cover;
   background-position: center;
 }
-/* Fotos das seções (END) */
-/* Estilo dos textos do carrosel */
 .espacostxtC3 {
   display: flex;
   align-items: center;
@@ -87,16 +71,18 @@
   width: 250px;
   margin-top: 24rem;
   margin-left: -1.5rem;
-  /* Background */
   background-image: url("/img/Dobra3/fundotxtC3.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
-/* Estilo dos textos do carrosel (END)*/
-
-/* Responsividades */
+.slick-dots li button:before {
+  color: white;
+}
+.slick-dots li.slick-active button:before {
+  color: White;
+}
 @media only screen and (min-width: 1300px) {
   .ContainerDesktop_3 {
     height: 100vh;
@@ -112,17 +98,6 @@
     margin: 0px;
     padding: 0px;
   }
-
-  .slickarrow {
-    width: 30px;
-    height: 30px;
-  }
-
-  .slick-prev {
-    background-color: transparent !important;
-    color: black;
-  }
-
   .slick-slider {
     margin: 0 50px;
   }
@@ -134,10 +109,6 @@
     margin: auto;
     height: 500px;
     padding: 0px;
-  }
-  .slick-dots li button:before {
-    margin-top: 0rem;
-    color: white;
   }
   .interessou-btn-desk {
     height: 50px;
@@ -161,16 +132,11 @@
     padding: 0px;
   }
   .slick-dots li button:before {
-    margin-top: -0.5rem; }
+    margin-top: -0.5rem;
+  }
   .espacostxtC3 {
     margin-top: 21rem;
   }
-  .slick-prev {
-    left: -8rem;
-    z-index: 1;
-    color: black;
-  }
-
   .slick-slide > div {
     display: grid;
     place-items: center;
@@ -179,10 +145,6 @@
     margin: auto;
     height: 500px;
     padding: 0px;
-  }
-  .slick-next {
-    right: 9rem;
-    z-index: 1;
   }
   .interessou-btn-desk {
     height: 60px;
@@ -206,16 +168,11 @@
     padding: 0px;
   }
   .slick-dots li button:before {
-    margin-top: -1rem; }
+    margin-top: -1rem;
+  }
   .espacostxtC3 {
     margin-top: 21rem;
   }
-  .slick-prev {
-    left: -8rem;
-    z-index: 1;
-    color: black;
-  }
-
   .slick-slide > div {
     display: grid;
     place-items: center;
@@ -224,10 +181,6 @@
     margin: auto;
     height: 500px;
     padding: 0px;
-  }
-  .slick-next {
-    right: 9rem;
-    z-index: 1;
   }
   .interessou-btn-desk {
     height: 60px;

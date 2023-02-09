@@ -3,10 +3,11 @@ import "./HeaderDesktop_2.css";
 
 const HeaderDesktop_2 = () => {
   return (
-    <div id="Diferente" className="ContainerDesktop_2 overflow-hidden w-full flex flex-col items-center justify-evenly text-white">
-      <h1 className=" titulo-desktop2 text-white">
-        O QUE TEMOS DE DIFERENTE?
-      </h1>
+    <div
+      id="Diferente"
+      className="ContainerDesktop_2 overflow-hidden w-full flex flex-col items-center justify-evenly text-white"
+    >
+      <h1 className=" titulo-desktop2 text-white">O QUE TEMOS DE DIFERENTE?</h1>
       <div className="ALL-square-c2 flex flex-row	items-center justify-around ">
         <div className="square-conteudo2-desktop flex flex-col items-center justify-around ">
           <div className="text-center mt-40 flex flex-col items-center text-white">

@@ -20,7 +20,9 @@ const HeaderDesktop_1 = () => {
         <br />
         <br />
         <button className="botao_parte_desktop3 flex flex-col items-center justify-center rounded-full ">
-          <p className="Text-Fonts-Size-Desktop-Version text-white	">FAÇA PARTE</p>
+          <p className="Text-Fonts-Size-Desktop-Version text-white	">
+            FAÇA PARTE
+          </p>
         </button>
       </div>
     </div>
