@@ -34,7 +34,7 @@ export default class BodyDesktop_3 extends Component {
         
         };
       return (
-        <div id="Espaços" className="ContainerDesktop_3 w-full flex flex-col justify-around bg-slate-400 overflow-hidden text-white">
+        <div id="Espaços" className="ContainerDesktop_3 w-full flex flex-col justify-evenly bg-slate-400 overflow-hidden text-white">
            <h1 className="Title-Fonts-Size-Desktop-Version titulo-desktop3 flex flex-col items-center">
              ESPAÇOS DO TAMANHO DA SUA NECESSIDADE.
           </h1>

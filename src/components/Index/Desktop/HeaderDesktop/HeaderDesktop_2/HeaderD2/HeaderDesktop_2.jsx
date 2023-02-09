@@ -3,7 +3,7 @@ import "./HeaderDesktop_2.css";
 
 const HeaderDesktop_2 = () => {
   return (
-    <div id="Diferente" className="ContainerDesktop_2 overflow-hidden w-full flex flex-col items-center justify-around text-white">
+    <div id="Diferente" className="ContainerDesktop_2 overflow-hidden w-full flex flex-col items-center justify-evenly text-white">
       <h1 className=" titulo-desktop2 text-white">
         O QUE TEMOS DE DIFERENTE?
       </h1>

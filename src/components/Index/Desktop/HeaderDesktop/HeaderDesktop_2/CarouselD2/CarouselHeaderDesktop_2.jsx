@@ -24,7 +24,7 @@ export default class CarouselHeaderDesktop_2 extends Component {
         },]
     };
     return (
-      <div className="ContainerCarouselDesktop_2 overflow-hidden w-full flex flex-col justify-around bg-slate-600 text-white">
+      <div className="ContainerCarouselDesktop_2 overflow-hidden w-full flex flex-col justify-evenly bg-slate-600 text-white">
         <h1 className="Title-Fonts-Size-Desktop-Version titulo-Carousel-desktop2 flex flex-col items-center ">
           O QUE TEMOS DE DIFERENTE?
         </h1>
