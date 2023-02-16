@@ -69,11 +69,16 @@ const HeaderDesktop_2 = () => {
           <div className="absolute rounded-full img-conteudo2-desktop iconeVirtual"></div>
         </div>
       </div>
-      <button className="Faca_parte_btn_desktop rounded-full">
-        <p className="facaParte-btn-txt Text-Fonts-Size-Desktop-Version">
-          FAÇA PARTE DO P7
-        </p>
-      </button>
+      <a
+        href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
+        target="_blank"
+      >
+        <button className="Faca_parte_btn_desktop rounded-full">
+          <p className="facaParte-btn-txt Text-Fonts-Size-Desktop-Version">
+            FAÇA PARTE DO P7
+          </p>
+        </button>
+      </a>
     </div>
   );
 };

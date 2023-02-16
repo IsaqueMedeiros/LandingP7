@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./style/Nav.css";
 import "./style/Navd.css";
@@ -10,8 +11,8 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
   function lockScroll() {
-    document.body.classList.toggle('lock-scroll');
-}
+    document.body.classList.toggle("lock-scroll");
+  }
 
   return (
     <header className="overflow-hidden">
@@ -27,30 +28,43 @@ function Navbar() {
         </button>
       </p>
 
-      <nav className="txt-links-all" ref={navRef} >
-        <a href="#Diferente" onClick={() =>{lockScroll();showNavbar()}} >
+      <nav className="txt-links-all" ref={navRef}>
+        <Link to="/#Diferente">
           <p className="text-base">DIFERENCIAIS</p>
-        </a>
-        <a href="#Espaços" onClick={() =>{lockScroll();showNavbar()}}>
+        </Link>
+        <Link to="/#Espaços">
           <p className="text-base">ESPAÇOS</p>
-        </a>
-        <a href="#Serviços" onClick={() =>{lockScroll();showNavbar()}}>
+        </Link>
+        <Link to="/#Serviços">
           <p className="text-base">SERVIÇOS</p>
-        </a>
-        <a href="#SistemaFIEMG" onClick={() =>{lockScroll();showNavbar()}}>
+        </Link>
+        <Link to="/#SistemaFIEMG">
           <p className="text-base">SISTEMA FIEMG</p>
-        </a>
-        <a href="#QuemEstaNoP7" onClick={() =>{lockScroll();showNavbar()}}>
+        </Link>
+        <Link to="#QuemEstaNoP7">
           <p className="text-base">QUEM ESTÁ NO P7</p>
-        </a>
-        <a href="#EntreParaP7"onClick={() =>{lockScroll();showNavbar()}}>
+        </Link>
+        <Link to="#EntreParaP7">
           <p className="text-base">ENTRE PARA O P7</p>
-        </a>
-        <button className="nav-btn nav-close-btn"  onClick={() =>{lockScroll();showNavbar()}} >
+        </Link>
+        <button
+          className="nav-btn nav-close-btn"
+          onClick={() => {
+            lockScroll();
+            showNavbar();
+          }}
+        >
           <FaTimes />
         </button>
       </nav>
-      <button className="nav-btn" id="mob-menu-btn"  onClick={() =>{lockScroll();showNavbar()}}>
+      <button
+        className="nav-btn"
+        id="mob-menu-btn"
+        onClick={() => {
+          lockScroll();
+          showNavbar();
+        }}
+      >
         <FaBars />
       </button>
     </header>

@@ -25,7 +25,10 @@ export default class CarouselHeaderDesktop_2 extends Component {
       ],
     };
     return (
-      <div className="ContainerCarouselDesktop_2 overflow-hidden w-full flex flex-col justify-evenly bg-slate-600 text-white">
+      <div
+        id="Diferente"
+        className="ContainerCarouselDesktop_2 overflow-hidden w-full flex flex-col justify-evenly bg-slate-600 text-white"
+      >
         <h1 className="Title-Fonts-Size-Desktop-Version titulo-Carousel-desktop2 flex flex-col items-center ">
           O QUE TEMOS DE DIFERENTE?
         </h1>
@@ -102,11 +105,16 @@ export default class CarouselHeaderDesktop_2 extends Component {
           </Slider>
         </div>
         <div className="flex flex-col items-center ">
-          <button className="Faca_parte_btn_Carousel_desktop rounded-full">
-            <p className="facaParte-btn-txt Text-Fonts-Size-Desktop-Version">
-              FAÇA PARTE DO P7
-            </p>
-          </button>
+          <a
+            href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
+            target="_blank"
+          >
+            <button className="Faca_parte_btn_Carousel_desktop rounded-full">
+              <p className="facaParte-btn-txt Text-Fonts-Size-Desktop-Version">
+                FAÇA PARTE DO P7
+              </p>
+            </button>
+          </a>
         </div>
       </div>
     );

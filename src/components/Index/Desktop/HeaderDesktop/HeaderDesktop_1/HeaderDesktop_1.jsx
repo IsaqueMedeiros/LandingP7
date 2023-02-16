@@ -19,11 +19,16 @@ const HeaderDesktop_1 = () => {
         </p>
         <br />
         <br />
-        <button className="botao_parte_desktop3 flex flex-col items-center justify-center rounded-full ">
-          <p className="Text-Fonts-Size-Desktop-Version text-white	">
-            FAÇA PARTE
-          </p>
-        </button>
+        <a
+          href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
+          target="_blank"
+        >
+          <button className="botao_parte_desktop3 flex flex-col items-center justify-center rounded-full ">
+            <p className="Text-Fonts-Size-Desktop-Version text-white	">
+              FAÇA PARTE
+            </p>
+          </button>
+        </a>
       </div>
     </div>
   );
