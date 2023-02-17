@@ -32,16 +32,18 @@ export default class FooterDesktop_6 extends Component {
             projetado por Oscar Niemeyer na década de 50, inteiramente dedicado
             à criatividade, inovação e negócios.
           </p>
-          <a
+
+          
+            <button className="agendeTour-btn">
+            <a
             href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
             target="_blank"
           >
-            <button className="agendeTour-btn">
               <p className=" Text-Fonts-Size-Desktop-Version agendeTour-txt">
                 AGENDE UM TOUR PRESENCIAL
-              </p>
+              </p>          </a>
+
             </button>
-          </a>
         </div>
         <div className="ScrollSide-position_6">
           <h1 className=" txt-scrollside-container_6">
