@@ -8,11 +8,6 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  resolve: {
-    alias: {
-      './runtimeConfig': './runtimeConfig.browser',
-    },
-},
   build: {
     chunkSizeWarningLimit: 1600,
   },
