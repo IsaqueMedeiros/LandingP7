@@ -104,14 +104,14 @@ const Form2 = (props) => {
           value={props.value}
           type="text"
           name="user_phonePF"
-          placeholder="  Telefone*"
+          placeholder="Telefone*"
           className="inputForm"
           required
         />
         <input
           type="text"
           name="user_empresaPF"
-          placeholder="  Nome da empresa*"
+          placeholder="Nome da empresa*"
           className="inputForm"
           required
         />
