@@ -16,6 +16,7 @@ const Pages = () => {
       </Routes>
       <Rodape />
     </Hash>
+   
   );
 };
 

@@ -22,7 +22,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/img/navBK.svg");
+  background-image: url("/img/header/navBK.svg");
   color: var(--textColor);
   overflow: hidden;
 }
