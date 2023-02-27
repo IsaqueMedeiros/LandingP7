@@ -20,7 +20,7 @@
 }
 .coworkimg {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  background-image: url("/img/Dobra3/Fotos_Espaços/coworking.jpg");
+  background-image: url("/img/Dobra3/espacos/coworking.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -28,7 +28,7 @@
 }
 .salaPrivativaimg {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  background-image: url("/img/Dobra3/Fotos_Espaços/salaPrivativa.jpg");
+  background-image: url("/img/Dobra3/espacos/salaPrivativa.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -36,28 +36,28 @@
 }
 .andarCorridoimg {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  background-image: url("/img/Dobra3/Fotos_Espaços/andarCorrido.jpg");
+  background-image: url("/img/Dobra3/espacos/andarCorrido.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
 .salaReuniaoimg {
-  background-image: url("/img/Dobra3/Fotos_Espaços/salaReuniao.jpg");
+  background-image: url("/img/Dobra3/espacos/salaReuniao.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
 .auditorioimg {
-  background-image: url("/img/Dobra3/Fotos_Espaços/auditorio.jpg");
+  background-image: url("/img/Dobra3/espacos/auditorio.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
 .restauranteimg {
-  background-image: url("/img/Dobra3/Fotos_Espaços/restaurante.jpg");
+  background-image: url("/img/Dobra3/espacos/restaurante.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
