@@ -1,5 +1,13 @@
 /* Estilo nav desk  */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+.logo_Navbar {
+  width: 70px;
+  height: 72px;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-image: url("/img/Header/LogoP7-01.svg");
+}
+
 .lock-scroll {
   overflow: hidden;
 }
@@ -98,12 +106,4 @@ header .nav-btn {
 
 /* Abertura da navbar na vertical (END)*/
 
-/* Estilo dos botões */
 
-.logo_Navbar {
-  width: 70px;
-  height: 72px;
-  z-index: 999;
-  background-repeat: no-repeat;
-  background-image: url("/img/Header/LogoP7-01.svg");
-}

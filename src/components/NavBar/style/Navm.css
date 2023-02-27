@@ -1,67 +1,33 @@
-@media only screen and (min-width: 500px) and (max-width:699px) {
-  .logo_Navbar{
-    margin-left: 0rem;
-}
-.entrar_p7_btn{
-    margin-left: 50%;
-}
-header{
-    height: 7rem;
-}
-header .nav-btn {
-    margin-right: 0rem;
-    font-size: 2rem;
 
-}
-header nav {
-    height: 85%;
-    width: 100%;
-}
-.TXT-links{
-    margin-right: 2.5rem;
-}
-.entrar_p7_btn{
-    text-align: center;
-    border-radius: 100px;
-    padding: 3px;
-    width: 170px;
-    border: solid 1px #fff;
-    font-size: 0.8rem;
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .logo_Navbar {
+    margin-left: -1rem;
   }
-  .entrar_p7_btn, a{
-    cursor: pointer;
-    color: #fff;
+  .entrar_p7_btn {
+    margin-left: 2.5%;
+    overflow: hidden;
   }
-}
-@media only screen and (min-width: 400px) and (max-width:499px) {
-  .logo_Navbar{
-    margin-left: 0rem;
-}
-.entrar_p7_btn{
-    margin-left: 17%;
-}
-header{
-  background-repeat: no-repeat;
+  header {
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/img/Header/navm-BK.svg");
     height: 7rem;
-}
-header .nav-btn {
-    margin-right: 0rem;
+  }
+  header .nav-btn {
+    margin-right: -1rem;
     font-size: 2rem;
-
-}
-header nav {
+  }
+  header nav {
     height: 65%;
     width: 100%;
-}
-.TXT-links{
+  }
+  .TXT-links {
     margin-right: 2.5rem;
-}
-.entrar_p7_btn{
+  }
+  .entrar_p7_btn {
     text-align: center;
     border-radius: 100px;
     padding: 3px;
@@ -69,35 +35,46 @@ header nav {
     border: solid 1px #fff;
     font-size: 0.8rem;
   }
-  .entrar_p7_btn, a{
+  .entrar_p7_btn,
+  a {
     cursor: pointer;
     color: #fff;
   }
 }
 
-@media only screen and (min-width: 280px) and (max-width:399px) {
-  .logo_Navbar{
-    margin-left: 0rem;
-}
-.entrar_p7_btn{
-    margin-left: 17%;
-}
-header{
+@media only screen and (min-width: 280px) and (max-width: 399px) {
+  header {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Header/navm-BK.svg");
     height: 7rem;
-}
-header .nav-btn {
-    margin-right: 0rem;
+  }
+  .logo_Navbar {
+    margin-left: -1rem;
+  }
+  .entrar_p7_btn {
+    margin-left: 2.5%;
+    overflow: hidden;
+    max-width: 150px;
+  }
+  header {
+    height: 7rem;
+  }
+  header .nav-btn {
+    margin-right: -1rem;
     font-size: 2rem;
-
-}
-header nav {
+  }
+  header nav {
     height: 65%;
     width: 100%;
-}
-.TXT-links{
+  }
+  .TXT-links {
     margin-right: 2.5rem;
-}
-.entrar_p7_btn{
+  }
+  .entrar_p7_btn {
     text-align: center;
     border-radius: 100px;
     padding: 3px;
@@ -105,7 +82,53 @@ header nav {
     border: solid 1px #fff;
     font-size: 0.8rem;
   }
-  .entrar_p7_btn, a{
+  .entrar_p7_btn,
+  a {
+    cursor: pointer;
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+  header {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/Header/navm-BK.svg");
+    height: 7rem;
+  }
+  .logo_Navbar {
+    margin-left: 0rem;
+  }
+  .entrar_p7_btn {
+    margin-left: 5%;
+    overflow: hidden;
+  }
+  header {
+    height: 7rem;
+  }
+  header .nav-btn {
+    margin-right: -1rem;
+    font-size: 2rem;
+  }
+  header nav {
+    height: 65%;
+    width: 100%;
+  }
+  .TXT-links {
+    margin-right: 2.5rem;
+  }
+  .entrar_p7_btn {
+    text-align: center;
+    border-radius: 100px;
+    padding: 3px;
+    width: 170px;
+    border: solid 1px #fff;
+    font-size: 0.8rem;
+  }
+  .entrar_p7_btn,
+  a {
     cursor: pointer;
     color: #fff;
   }
