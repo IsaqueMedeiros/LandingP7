@@ -1,5 +1,4 @@
 
-/* Firefox */
 
 .Footer_Container7 {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
@@ -905,150 +904,15 @@
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 699px) {
-  .formMainH1 {
-    display: none;
-  }
-
-  .ConteudoFormTotal {
-    /* margin-left: 30%; */
-    background-color: #893094;
-    height:80%;
-    width: 90%;
-    border-radius: 15px;
-  }
-
-  .allButtonsForm {
-    width: 60%;
-  }
-
-  .buttonForm {
-    width: 20px;
-    height: 20px;
-    border: 2.5px solid #fff;
-  }
-
-  .textLabels {
-    font-size: 1rem;
-  }
-
-  /* Forms styles */
-  .pessoaFisicaForm {
-    width: 100%;
-    height: 500px;
-    background-color: transparent;
-    display: none;
-  }
-
-  .pessoaJuridicaForm {
-    width: 100%;
-    height: 500px;
-    background-color: transparent;
-  }
-
-  /* Conteudo Form Pessoa jurídica */
-  .pessoaJuridicaConteudo1 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .inputForm {
-    width: 90%;
-    height: 4rem;
-    border-radius: 10px;
-    background-color: #b378b9;
-    color: #fff;
-    padding-left: 15px;
-  }
-
-  textarea:focus,
-  input:focus {
-    outline-color: #9430b9;
-  }
-
-  ::placeholder {
-    color: #fff !important;
-  }
-
-  .buttonPJProximo {
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-  }
-
-  .divPassosPJ {
-    margin-top: -2.5rem;
-    margin-left: 43%;
-  }
-
-  .buttonPJNextBall {
-    width: 10px;
-    height: 10px;
-    margin-left: 1rem;
-    border: 1px solid #fff;
-  }
-
-  .buttonPJAnteriorBall {
-    width: 10px;
-    height: 10px;
-    border: 1px solid #fff;
-  }
-
-  .passosPJText {
-    margin-top: 45px;
-    margin-left: -50px;
-  }
-
-  /* pj conteúdo 2 */
-  .pessoaJuridicaConteudo2 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .containerInputCheck {
-    width: 90%;
-    height: 50%;
-    border-radius: 10px;
-    background-color: #b378b9;
-  }
-
-  .titleInput-Check {
-    font-size: 1.3rem;
-  }
-
-  .allCheckInput {
-    height: 50%;
-    width: 75%;
-  }
-
-  .inputType-CheckStyle {
-    margin-right: 1rem;
-  }
-
-  .enviarpjBTN {
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-  }
-}
-
 @media only screen and (min-width: 376px) and (max-width: 499px) {
+  .Footer_Container7 {
+    height: 110vh;
+  }
   .formMainH1 {
     display: none;
   }
 
   .ConteudoFormTotal {
-    /* margin-left: 30%; */
     background-color: #893094;
     height:95%;
     width: 90%;
@@ -1183,6 +1047,9 @@
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 375px) {
+  .Footer_Container7 {
+    height: 115vh;
+  }
   .formMainH1 {
     display: none;
   }

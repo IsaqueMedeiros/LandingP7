@@ -114,7 +114,7 @@
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   .DobraMobile-Container-3 {
-    height: 100vh;
+    height: 110vh;
   }
   .interessou_btn {
     height: 50px;
@@ -150,10 +150,10 @@
 
 @media only screen and (min-width: 370px) and (max-width: 399px) {
   .DobraMobile-Container-3 {
-    height: 100vh;
+    height: 110vh;
   }
   .interessou_btn {
-    height: 50px;
+    height: 40px;
     width: 300px;
     border-radius: 40px;
     display: grid;
@@ -185,7 +185,7 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 369px) {
   .DobraMobile-Container-3 {
-    height: 100vh;
+    height: 120vh;
   }
   .interessou_btn {
     height: 50px;

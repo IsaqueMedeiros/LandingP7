@@ -132,7 +132,7 @@
 }
 @media only screen and (min-width:0px) and (max-width:499px) {
     .DobraMobile-Container-6{
-        height: 100vh;
+        height: 110vh;
     }
     .Textos_Mobile-Container6{
         display: flex;

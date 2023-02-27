@@ -1,11 +1,11 @@
 .DobraMobile-Container-5{
+  height: 110vh;
     box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
     background-image: url('/img/Dobra5/GrafismoBK5.svg'),url('/img/Dobra5/BK5.svg');
     background-repeat: no-repeat,no-repeat;
     background-attachment:scroll,scroll;
     background-size:cover,cover;
     background-position: center,center;
-    height: 100vh;
 } 
   /* Logos empresas Parceiras */
 
