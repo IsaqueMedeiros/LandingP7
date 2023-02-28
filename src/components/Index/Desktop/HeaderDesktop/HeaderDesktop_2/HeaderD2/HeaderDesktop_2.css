@@ -1,3 +1,12 @@
+.ContainerDesktop_2 {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra2/BK2.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
 .Faca_parte_btn_desktop {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
   background-image: url("/img/Dobra2/Ativo2.svg");
@@ -47,15 +56,6 @@
   background-position: center;
 }
 @media only screen and (min-width: 1600px) {
-  .ContainerDesktop_2 {
-    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    background-image: url("/img/Dobra2/BK2.svg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
 
   .titulo-desktop2 {
     font-size: 1.8rem;

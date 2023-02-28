@@ -1,3 +1,6 @@
+.ContainerCarouselDesktop_2 {
+  height: 120vh;
+}
 .Faca_parte_btn_Carousel_desktop {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
   background-image: url("/img/Dobra2/Ativo2.svg");
@@ -16,9 +19,7 @@
   background-position: center;
 }
 @media only screen and (min-width: 1150px) and (max-width: 1599.95px) {
-  .ContainerCarouselDesktop_2 {
-    height: 100vh;
-  }
+  
   .titulo-Carousel-desktop2 {
     font-size: 1.8rem;
     margin-right: 40%;
@@ -72,9 +73,7 @@
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1149px) {
-  .ContainerCarouselDesktop_2 {
-    height: 100vh;
-  }
+  
   .titulo-Carousel-desktop2 {
     font-size: 1.8rem;
     margin-right: 40%;
@@ -125,9 +124,7 @@
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 899px) {
-  .ContainerCarouselDesktop_2 {
-    height: 100vh;
-  }
+ 
   .titulo-Carousel-desktop2 {
     font-size: 1.8rem;
     margin-right: 40%;

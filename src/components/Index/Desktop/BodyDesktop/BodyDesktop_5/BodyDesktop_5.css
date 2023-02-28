@@ -1,5 +1,7 @@
 
   .ContainerDesktop_5 {
+    height: 100vh;
+    justify-content: center;
     box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
     background-image: url('/img/Dobra5/GrafismoBK5.svg'),url('/img/Dobra5/BK5.svg');
     background-repeat: no-repeat,no-repeat;
@@ -63,10 +65,7 @@
 
 
 @media only screen and (min-width: 1200px)  {
-  .ContainerDesktop_5 {
-    height: 100vh;
-    justify-content: center;
-  }
+
   .titulo-desktop5{
     line-height: 2rem;
     width: 17rem;
@@ -104,10 +103,7 @@
   }
   
 }@media only screen and (min-width: 1000px) and (max-width:1199px)  {
-  .ContainerDesktop_5 {
-    height: 100vh;
-    justify-content: center;
-  }
+  
   .titulo-desktop5{
     line-height: 2rem;
     width: 17rem;
@@ -144,10 +140,7 @@
   }
 }
 @media only screen and (min-width: 700px) and (max-width:999px)  {
-  .ContainerDesktop_5 {
-    height: 100vh;
-    justify-content: center;
-  }
+ 
   .titulo-desktop5{
     line-height: 2rem;
     width: 17rem;

@@ -1,35 +1,31 @@
-
-
 .Footer_Container7 {
-  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
-    background-image:url('/img/Dobra7/BK7.svg');
-    background-repeat: no-repeat;
-    background-attachment:scroll;
-    background-size:cover;
-    background-position:center;
-  height: 100vh;
-}
-.enviarpjBTN{
-  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
-  background-image: url('/img/Dobra7/Ativo7.svg') !important;
+  height: 120vh;
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra7/BK7.svg");
   background-repeat: no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
-  background-position:center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.enviarpjBTN {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-image: url("/img/Dobra7/Ativo7.svg") !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
 }
 /* politica de privacidade (START) */
-.politicaDadosLink{
+.politicaDadosLink {
   color: #fff;
   text-decoration: underline;
 }
-.politicaDadosLink:visited{
-  color: #ffa305
-
-  ;
+.politicaDadosLink:visited {
+  color: #ffa305;
 }
 /* politica de privacidade (END) */
 
-@media only screen and (min-width: 1500px)  {
+@media only screen and (min-width: 1500px) {
   .formMainH1 {
     font-size: 1.8rem;
     width: 18rem;
@@ -38,7 +34,7 @@
 
   .ConteudoFormTotal {
     background-color: #893094;
-    height:90%;
+    height: 75%;
     width: 40%;
     border-radius: 15px;
   }
@@ -90,23 +86,22 @@
     color: #fff;
     padding-left: 15px;
   }
-/* Cor da borda ao ser clicada */
+  /* Cor da borda ao ser clicada */
   textarea:focus,
   input:focus {
     outline-color: #9430b9;
   }
-/* Cor da borda ao ser clicada (END)*/
+  /* Cor da borda ao ser clicada (END)*/
 
-/* Remover autofill Background branco */
+  /* Remover autofill Background branco */
   input:-webkit-autofill,
   input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
-}
+  }
   input[data-autocompleted] {
     background-color: #b378b9 !important;
-}
-/* Remover autofill Background branco (END) */
-
+  }
+  /* Remover autofill Background branco (END) */
 
   ::placeholder {
     color: #fff !important;
@@ -140,7 +135,6 @@
     border-radius: 10px;
     border: 1px solid #fff;
   }
-
 
   /* pj conteúdo 2 */
   .pessoaJuridicaConteudo2 {
@@ -183,7 +177,7 @@
   }
 }
 
-@media only screen and (min-width: 1367px) and (max-width: 1499px)  {
+@media only screen and (min-width: 1367px) and (max-width: 1499px) {
   .formMainH1 {
     font-size: 1.8rem;
     width: 18rem;
@@ -192,7 +186,7 @@
 
   .ConteudoFormTotal {
     background-color: #893094;
-    height:90%;
+    height: 75%;
     width: 40%;
     border-radius: 15px;
   }
@@ -244,23 +238,22 @@
     color: #fff;
     padding-left: 15px;
   }
-/* Cor da borda ao ser clicada */
+  /* Cor da borda ao ser clicada */
   textarea:focus,
   input:focus {
     outline-color: #9430b9;
   }
-/* Cor da borda ao ser clicada (END)*/
+  /* Cor da borda ao ser clicada (END)*/
 
-/* Remover autofill Background branco */
+  /* Remover autofill Background branco */
   input:-webkit-autofill,
   input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
-}
+  }
   input[data-autocompleted] {
     background-color: #b378b9 !important;
-}
-/* Remover autofill Background branco (END) */
-
+  }
+  /* Remover autofill Background branco (END) */
 
   ::placeholder {
     color: #fff !important;
@@ -294,7 +287,6 @@
     border-radius: 10px;
     border: 1px solid #fff;
   }
-
 
   /* pj conteúdo 2 */
   .pessoaJuridicaConteudo2 {
@@ -336,7 +328,7 @@
     border-radius: 10px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
   .formMainH1 {
     font-size: 1.8rem;
     width: 18rem;
@@ -345,7 +337,7 @@
 
   .ConteudoFormTotal {
     background-color: #893094;
-    height:95%;
+    height: 75%;
     width: 40%;
     border-radius: 15px;
   }
@@ -397,23 +389,22 @@
     color: #fff;
     padding-left: 15px;
   }
-/* Cor da borda ao ser clicada */
+  /* Cor da borda ao ser clicada */
   textarea:focus,
   input:focus {
     outline-color: #9430b9;
   }
-/* Cor da borda ao ser clicada (END)*/
+  /* Cor da borda ao ser clicada (END)*/
 
-/* Remover autofill Background branco */
+  /* Remover autofill Background branco */
   input:-webkit-autofill,
   input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
-}
+  }
   input[data-autocompleted] {
     background-color: #b378b9 !important;
-}
-/* Remover autofill Background branco (END) */
-
+  }
+  /* Remover autofill Background branco (END) */
 
   ::placeholder {
     color: #fff !important;
@@ -448,7 +439,6 @@
     border-radius: 10px;
     border: 1px solid #fff;
   }
-
 
   /* pj conteúdo 2 */
   .pessoaJuridicaConteudo2 {
@@ -501,7 +491,7 @@
   .ConteudoFormTotal {
     /* margin-left: 30%; */
     background-color: #893094;
-    height:95%;
+    height: 75%;
     width: 50%;
     border-radius: 15px;
   }
@@ -638,7 +628,7 @@
   .ConteudoFormTotal {
     /* margin-left: 30%; */
     background-color: #893094;
-    height:80%;
+    height: 75%;
     width: 60%;
     border-radius: 15px;
   }
@@ -775,7 +765,7 @@
   .ConteudoFormTotal {
     /* margin-left: 30%; */
     background-color: #893094;
-    height:80%;
+    height: 75%;
     width: 90%;
     border-radius: 15px;
   }
@@ -914,7 +904,7 @@
 
   .ConteudoFormTotal {
     background-color: #893094;
-    height:95%;
+    height: 95%;
     width: 90%;
     border-radius: 15px;
   }
@@ -1057,7 +1047,7 @@
   .ConteudoFormTotal {
     /* margin-left: 30%; */
     background-color: #893094;
-    height:98%;
+    height: 98%;
     width: 90%;
     border-radius: 15px;
   }

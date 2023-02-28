@@ -1,4 +1,7 @@
 
+.ContainerDesktop_4 {
+  height: 120vh;
+}
 .Beneficios-p7-desktop4 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -98,9 +101,7 @@
 /* Responsividades */
 
 @media only screen and (min-width: 1200px){
-  .ContainerDesktop_4 {
-    height: 100vh;
-  }
+  
   .titulo-desktop4{
     font-size: 1.8rem;
   }
@@ -137,9 +138,7 @@
   }
 }
 @media only screen and (min-width: 1000px) and (max-width:1199px) {
-  .ContainerDesktop_4 {
-    height: 100vh;
-  }
+  
   .titulo-desktop4{
     font-size: 2rem;
   }
@@ -176,9 +175,7 @@
   }
 }
 @media only screen and (min-width: 700px) and (max-width:999px) {
-  .ContainerDesktop_4 {
-    height: 100vh;
-  }
+  
   .titulo-desktop4{
     font-size: 2rem;
   }

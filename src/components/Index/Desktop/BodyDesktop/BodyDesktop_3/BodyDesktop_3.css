@@ -8,7 +8,7 @@
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
 }
 .interessou-btn-desk {
   box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -84,9 +84,7 @@
   color: White;
 }
 @media only screen and (min-width: 1300px) {
-  .ContainerDesktop_3 {
-    height: 100vh;
-  }
+  
   .titulo-desktop3 {
     font-size: 1.8rem;
     margin-right: 30%;
@@ -117,9 +115,7 @@
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1299px) {
-  .ContainerDesktop_3 {
-    height: 100vh;
-  }
+
   .titulo-desktop3 {
     font-size: 1.8rem;
     margin-right: 30%;
@@ -153,9 +149,7 @@
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 999px) {
-  .ContainerDesktop_3 {
-    height: 100vh;
-  }
+  
   .titulo-desktop3 {
     font-size: 1.8rem;
     margin-right: 0%;
