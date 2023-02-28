@@ -3,7 +3,10 @@ import "./DobraMobile_2.css";
 
 const DobraMobile_2 = () => {
   return (
-    <div id="Diferente" className="DobraMobile-Container-2 w-full overflow-hidden flex flex-col items-center justify-around bg-slate-600 text-white">
+    <div
+      id="Diferente"
+      className="DobraMobile-Container-2 w-full overflow-hidden flex flex-col items-center justify-around bg-slate-600 text-white"
+    >
       <h1 className="text-3xl max-w-[220px] text-center">
         O QUE TEMOS DE DIFERENTE ?
       </h1>
@@ -49,59 +52,51 @@ const DobraMobile_2 = () => {
         </div>
         <div className="carousel-inner relative w-64 h-96 overflow-hidden">
           <div className="carousel-item eco-icon-mobile active relative float-left w-full">
-            <div
-              className="block w-32 h-32 rounded-full ml-16"
-            ></div>
+            <div className="block w-32 h-32 rounded-full ml-16"></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">NOSSA ECONOMIA É CRIATIVA</h5>
-              <p className="mt-3" >
-              Somos exclusivamente, dedicados á economia criativa.
+              <p className="mt-3">
+                Somos exclusivamente, dedicados á economia criativa.
               </p>
             </div>
           </div>
           <div className="carousel-item net-icon-mobile relative float-left w-full">
-            <div
-              className="block w-32 h-32 rounded-full ml-16"
-            ></div>
+            <div className="block w-32 h-32 rounded-full ml-16"></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">NETWORKING</h5>
               <p className="mt-3">
-              Conexões com redes de relacionamento, empresas e instituições nacionais e internacionais.
+                Conexões com redes de relacionamento, empresas e instituições
+                nacionais e internacionais.
               </p>
             </div>
           </div>
           <div className="carousel-item des-icon-mobile relative float-left w-full">
-            <div
-              className="block w-32 h-32 rounded-full ml-16 "
-            ></div>
+            <div className="block w-32 h-32 rounded-full ml-16 "></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">DESENVOLVIMENTO</h5>
               <p className="mt-3">
-              Acesso a programas de apoio, capacitação, financiamento, plataforma de dados e informações.
+                Acesso a programas de apoio, capacitação, financiamento,
+                plataforma de dados e informações.
               </p>
             </div>
           </div>
           <div className="carousel-item ex-icon-mobile relative float-left w-full">
-            <div
-              className="block w-32 h-32 rounded-full ml-16 "
-            ></div>
+            <div className="block w-32 h-32 rounded-full ml-16 "></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">EXPANSÃO</h5>
               <p className="mt-3">
-              Conexões com mercados estrátegicos, para apoio á internacionalização e atração de negócios.
+                Conexões com mercados estrátegicos, para apoio á
+                internacionalização e atração de negócios.
               </p>
             </div>
           </div>
           <div className="carousel-item virtu-icon-mobile relative float-left w-full">
-            <div
-              className="block w-32 h-32 rounded-full ml-16 "
-            ></div>
+            <div className="block w-32 h-32 rounded-full ml-16 "></div>
             <div className=" top-52 carousel-caption  md:block absolute text-center">
               <h5 className="text-xl">RESIDENTE VIRTUAL</h5>
               <p className="mt-3">
-              Possibilidade de empresas e profissionais de outras cidades participarem do P7 Criativo.
-
-
+                Possibilidade de empresas e profissionais de outras cidades
+                participarem do P7 Criativo.
               </p>
             </div>
           </div>
@@ -155,9 +150,14 @@ const DobraMobile_2 = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <button className="faca_parte_btn ">
-        <h3>FAÇA PARTE DO P7</h3>
-      </button>
+      <a
+        href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
+        target="_blank"
+      >
+        <button className="faca_parte_btn ">
+          <h3>FAÇA PARTE DO P7</h3>
+        </button>
+      </a>
     </div>
   );
 };
