@@ -47,14 +47,15 @@ export default class DobraMobile_6 extends Component {
             projetado por Oscar Niemeyer na década de 50, inteiramente dedicado
             à criatividade, inovação e negócios.
           </p>
-          <a
+         
+            <button className="AgendeTour_btn_mobile rounded-full">
+            <a
             href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
             target="_blank"
           >
-            <button className="AgendeTour_btn_mobile rounded-full">
-              AGENDE UM TOUR PRESENCIAL
+              AGENDE UM TOUR PRESENCIAL          </a>
+
             </button>
-          </a>
         </div>
         <div className="ScrollSide_AutoMobile-Position">
           <h1 className="Text_ScrollSide_Mobile flex flex-col ">

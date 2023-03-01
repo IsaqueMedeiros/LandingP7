@@ -28,7 +28,7 @@ const DobraMobile_5 = () => {
         href=" https://api.whatsapp.com/send?phone=996905648&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20P7! "
         target="_blank"
       >
-        <button className="EntreP7_btn  rounded-full">
+        <button className="EntreP7_btn  rounded-full ">
           <h3>ENTRE PARA O P7</h3>
         </button>
       </a>

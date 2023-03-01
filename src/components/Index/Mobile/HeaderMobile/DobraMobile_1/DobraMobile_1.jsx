@@ -13,8 +13,8 @@ const DobraMobile_1 = () => {
           CRIATIVA.{" "}
         </h1>
         <p className="max-w-[300px] my-10 mr-[20px] text-base">
-          Uma comunidade em que empresas e pessoas da Criatividade, inovação e
-          tecnologia podem fazxer conexões, empreender, colaborar entre si e
+        Uma comunidade em que empresas e pessoas da Criatividade, inovação e
+          tecnologia podem fazer conexões, empreender, colaborar entre si e
           desenvolver negócios relevantes.
         </p>
         <a

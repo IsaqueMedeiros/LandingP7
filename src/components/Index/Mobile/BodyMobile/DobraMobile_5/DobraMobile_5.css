@@ -55,12 +55,12 @@
     max-width: 305px;
 }
 .EntreP7_btn{
-    width: 300px;
+    width: 250px;
     height: 40px;
     box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .0);
     background-image: url('/img/Dobra5/Ativo5.svg');
     background-repeat: no-repeat;
     background-attachment:scroll;
-    background-size:auto;
+    background-size:cover;
     background-position: center;
 }
