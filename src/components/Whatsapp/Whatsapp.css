@@ -103,8 +103,8 @@
 @media only screen and (min-width:0px) and (max-width:449px)  {
     .WppContainerTotal{
         position:absolute;
-        right: 10%;
-        bottom: -15%;
+        right: 5%;
+        bottom: -23%;
         z-index: 999999;
     }
     
