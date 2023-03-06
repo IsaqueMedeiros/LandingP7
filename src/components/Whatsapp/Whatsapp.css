@@ -8,7 +8,7 @@
     
     .WppIcon{
         width: 100px;
-        height: 100px;
+        height: auto;
     }
     .WppBackground{
         width:40px;
@@ -42,7 +42,7 @@
     
     .WppIcon{
         width: 100px;
-        height: 100px;
+        height: auto;
     }
     .WppBackground{
         width:40px;
@@ -76,7 +76,7 @@
     
     .WppIcon{
         width: 100px;
-        height: 100px;
+        height: auto;
     }
     .WppBackground{
         width:40px;
@@ -110,7 +110,7 @@
     
     .WppIcon{
         width: 45px;
-        height: 450px;
+        height: auto;
     }
     .WppBackground{
         width:40px;
