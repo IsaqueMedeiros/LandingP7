@@ -55,7 +55,6 @@ export default class FooterDesktop_6 extends Component {
             <div className="ScrollSide-desktop6 logoSenaiF6"></div>
             <div className="ScrollSide-desktop6 logoSesiF6"></div>
             <div className="ScrollSide-desktop6 logoIELF6"></div>
-            <div className="ScrollSide-desktop6 logoFIEMGF6"></div>
             <div className="ScrollSide-desktop6 LogoNeoVentures"></div>
           </Slider>
         </div>
