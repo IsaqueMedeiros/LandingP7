@@ -29,22 +29,22 @@ function Navbar() {
       </p>
 
       <nav className="txt-links-all" ref={navRef}>
-        <Link to="/#Diferente">
+        <Link to="/#Diferente" onClick={()=>{showNavbar();lockScroll();}} >
           <p className="text-base">DIFERENCIAIS</p>
         </Link>
-        <Link to="/#Espaços">
+        <Link to="/#Espaços" onClick={()=>{showNavbar();lockScroll();}}>
           <p className="text-base">ESPAÇOS</p>
         </Link>
-        <Link to="/#Serviços">
+        <Link to="/#Serviços" onClick={()=>{showNavbar();lockScroll();}}>
           <p className="text-base">SERVIÇOS</p>
         </Link>
-        <Link to="/#SistemaFIEMG">
+        <Link to="/#SistemaFIEMG" onClick={()=>{showNavbar();lockScroll();}}>
           <p className="text-base">SISTEMA FIEMG</p>
         </Link>
-        <Link to="#QuemEstaNoP7">
+        <Link to="#QuemEstaNoP7" onClick={()=>{showNavbar();lockScroll();}}>
           <p className="text-base">QUEM ESTÁ NO P7</p>
         </Link>
-        <Link to="#EntreParaP7">
+        <Link to="#EntreParaP7" onClick={()=>{showNavbar();lockScroll();}}>
           <p className="text-base">ENTRE PARA O P7</p>
         </Link>
         <button
